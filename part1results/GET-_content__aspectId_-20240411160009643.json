@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/content/{aspectId}-20240411160009643",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://www.bclaws.ca/civix/content/corpreg",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:00:11 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:00:12 GMT\nContent-Type: text/xml\nTransfer-Encoding: chunked\nConnection: keep-alive\nServer: nginx/1.13.1\nAccess-Control-Allow-Origin: http://www.bclaws.ca\n",
+      "responseBody": "\u003c?xml version\u003d\"1.0\"?\u003e\u003c!-- This information is licensed under the Queen\u0027s Printer License of British Columbia found: www.bclaws.ca/standards/2014/QP-License_1.0.html. Please review the license terms carefully. --\u003e\u003croot\u003e\u003cindex\u003e\u003cCIVIX_DOCUMENT_TITLE\u003eCorporate Registries\u003c/CIVIX_DOCUMENT_TITLE\u003e\u003cCIVIX_DOCUMENT_ID\u003ecorpreg\u003c/CIVIX_DOCUMENT_ID\u003e\u003cCIVIX_INDEX_ID\u003ecorpreg\u003c/CIVIX_INDEX_ID\u003e\u003cCIVIX_DOCUMENT_TYPE\u003eindex\u003c/CIVIX_DOCUMENT_TYPE\u003e\u003c/index\u003e\u003c/root\u003e",
+      "responseReceivedAt": "Apr 11, 2024, 4:00:11 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:00:09 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

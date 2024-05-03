@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "POST-/originKeys-20240411163618280",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://checkout-test.adyen.com/v1/originKeys",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "{\"originDomains\": [\"34dde9\"]}",
+      "requestSentAt": "Apr 11, 2024, 4:36:18 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 401
+      },
+      "responseHeaders": "traceparent: 00-32eb9247619901b82f774b20f2818e75-5b04e8d03380c1ab-01\nset-cookie: ██\nwww-authenticate: BASIC realm\u003d\"Adyen PAL Service Authentication\"\ncontent-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:36:18 GMT\n",
+      "responseBody": "{\"status\":401,\"errorCode\":\"000\",\"message\":\"HTTP Status Response - Unauthorized\",\"errorType\":\"security\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:36:18 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:36:18 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

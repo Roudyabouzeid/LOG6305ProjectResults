@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/bng2latlong/{easting}/{northing}-20240411160337847",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.getthedata.com/bng2latlong/326897/673919",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:03:38 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:03:23 GMT\nServer: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16\nX-Powered-By: PHP/5.4.16\nAccess-Control-Allow-Origin: *\nContent-Length: 91\nKeep-Alive: timeout\u003d5, max\u003d100\nConnection: Keep-Alive\nContent-Type: application/json\n",
+      "responseBody": "{\"status\":\"ok\",\"easting\":326897,\"northing\":673919,\"latitude\":55.95271,\"longitude\":-3.17227}",
+      "responseReceivedAt": "Apr 11, 2024, 4:03:38 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:03:37 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,9 @@
+digraph G {
+  1 [ label="GET /content/{aspectId}" ];
+  2 [ label="GET /document/id/{aspectId}/{civixIndexId}/{civixDocumentId}" ];
+  3 [ label="GET /content/{aspectId}/{civixDocumentId}" ];
+  4 [ label="GET /document/id/{aspectId}/{civixIndexId}/{civixDocumentId}/xml" ];
+  5 [ label="GET /document/id/{aspectId}/{civixIndexId}/{civixDocumentId}/search/{searchString}" ];
+  6 [ label="GET /document/id/{aspectId}/{civixIndexId}/{civixDocumentId}/xml/search/{searchString}" ];
+  7 [ label="GET /search/{aspectId}/fullsearch" ];
+}

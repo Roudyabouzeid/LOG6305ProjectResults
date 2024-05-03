@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/v1/validation/single-20240411161739361",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.mailboxvalidator.com/v1/validation/single?email\u003dfm@mjeplthpl.lvmttsug.me\u0026key\u003dMR06%201753%209334%204771%206851%205777%20625",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:17:40 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json; charset\u003dutf-8\nserver: nginx\ndate: Thu, 11 Apr 2024 20:17:40 GMT\nx-frame-options: DENY\nx-xss-protection: 1; mode\u003dblock\nx-content-type-options: nosniff\nreferrer-policy: no-referrer-when-downgrade\ncontent-security-policy: default-src * data: \u0027unsafe-eval\u0027 \u0027unsafe-inline\u0027;frame-ancestors \u0027self\u0027;\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\npermissions-policy: accelerometer\u003d(), camera\u003d(), geolocation\u003d(), gyroscope\u003d(), magnetometer\u003d(), microphone\u003d(), payment\u003d(), usb\u003d(), interest-cohort\u003d()\nx-cache: Miss from cloudfront\nvia: 1.1 baa0aaa1ff4766ddf3afe80431a74b82.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-P1\nx-amz-cf-id: lSe4BZmOkmxUa6BW1ecEFrCCoKcqmmlSRJrG9Q2meQiJiVZPCHC9gw\u003d\u003d\n",
+      "responseBody": "{\"email_address\":\"\",\"domain\":\"\",\"is_free\":\"\",\"is_syntax\":\"\",\"is_domain\":\"\",\"is_smtp\":\"\",\"is_verified\":\"\",\"is_server_down\":\"\",\"is_greylisted\":\"\",\"is_disposable\":\"\",\"is_suppressed\":\"\",\"is_role\":\"\",\"is_high_risk\":\"\",\"is_catchall\":\"\",\"mailboxvalidator_score\":\"\",\"time_taken\":0.0036,\"status\":\"\",\"credits_available\":\"\",\"error_code\":\"101\",\"error_message\":\"API key not found.\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:17:40 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:17:39 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

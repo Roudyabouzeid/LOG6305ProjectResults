@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/parts.{fileFormatExtension}-20240411164819313",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/parts.geojson?srid\u003d26909",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:22 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:22 GMT\nServer: Apache\ncontent-type: application/x-geo+json;charset\u003dUTF-8\ncontent-length: 3038\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.geojson\nx-kong-upstream-latency: 11\nx-kong-proxy-latency: 0\nKeep-Alive: timeout\u003d5, max\u003d82\nConnection: Keep-Alive\n",
+      "responseBody": "{\"type\": \"FeatureCollection\",\"features\": [\n{\"type\": \"Feature\",\"geometry\": {\"type\": \"Polygon\",\"coordinates\": [[[-138.97191500739905,59.83487987921318],[-132.6467490502392,54.54967415358901],[-131.1918448544576,54.61199017158868],[-130.41263080649003,53.39301869087654],[-127.78178773201067,51.074594994370734],[-125.39601139520009,50.34543959043984],[-123.45831865700272,49.27670420711254],[-122.52011409300292,48.24241783947387],[-114.0139125812894,49.0218543884984],[-120.07107508259568,59.99021527928363],[-138.97191500739905,59.83487987921318]]]},\"properties\": {\"id\": \"#0 of gm-abcdefghijklmnopqrstuv0bcislands\",\"url\": \"https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\",\"geometryType\": \"Polygon\",\"partIndex\": 0,\"numPolygons\": 1,\"numParts\": 1,\"createDate\": \"2011-05-12\",\"minX\": -57571.46,\"minY\": 5363574.92,\"maxX\": 1593739.172,\"maxY\": 6683969.55,\"centroidX\": 800072.486,\"centroidY\": 6093538.416,\"numVertices\": 11,\"length\": 4743890.241289562,\"area\": 1215862755735,\"isValid\": true,\"isSimple\": true,\"isRobust\": true,\"minimumClearance\": 94331.451}},\n{\"type\": \"Feature\",\"geometry\": {\"type\": \"Polygon\",\"coordinates\": [[[-133.15045118313026,53.728593898082394],[-132.3722954206594,52.5652453508879],[-131.08153156507444,51.99885350441952],[-130.78153070861447,52.15533696971747],[-131.6372674642582,53.105476438993165],[-131.37320471811873,54.02939267007507],[-132.86027092770334,54.27440976663825],[-133.15045118313026,53.728593898082394]]]},\"properties\": {\"id\": \"#1 of gm-abcdefghijklmnopqrstuv0bcislands\",\"url\": \"https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\",\"geometryType\": \"Polygon\",\"partIndex\": 1,\"numPolygons\": 1,\"numParts\": 1,\"createDate\": \"2011-05-12\",\"minX\": 226245.09,\"minY\": 5762956.458,\"maxX\": 378125.561,\"maxY\": 6020930.593,\"centroidX\": 296677.078,\"centroidY\": 5903465.154,\"numVertices\": 8,\"length\": 664316.5027516823,\"area\": 19501015011,\"isValid\": true,\"isSimple\": true,\"isRobust\": true,\"minimumClearance\": 26943.332}},\n{\"type\": \"Feature\",\"geometry\": {\"type\": \"Polygon\",\"coordinates\": [[[-128.3816848984579,50.72464692367165],[-127.79876872828301,50.10162396115179],[-126.56305230306208,49.32601989492473],[-125.03149253083932,48.55119975713497],[-123.72689762168234,48.240116229810404],[-123.06384147496915,48.340718679339155],[-123.51208977978419,48.90423816181653],[-124.16567507799022,49.146052408760035],[-125.28843764797537,50.1253373607087],[-127.85467703824851,50.902182346937835],[-128.3816848984579,50.72464692367165]]]},\"properties\": {\"id\": \"#2 of gm-abcdefghijklmnopqrstuv0bcislands\",\"url\": \"https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\",\"geometryType\": \"Polygon\",\"partIndex\": 2,\"numPolygons\": 1,\"numParts\": 1,\"createDate\": \"2011-05-12\",\"minX\": 543643.051,\"minY\": 5356443.79,\"maxX\": 939795.222,\"maxY\": 5639572.007,\"centroidX\": 737647.711,\"centroidY\": 5494299.651,\"numVertices\": 11,\"length\": 1004817.9895109462,\"area\": 40737543678,\"isValid\": true,\"isSimple\": true,\"isRobust\": true,\"minimumClearance\": 41998.847}}\n]}\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:23 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:19 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

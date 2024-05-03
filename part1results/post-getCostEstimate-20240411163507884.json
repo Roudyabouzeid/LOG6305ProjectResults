@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "post-getCostEstimate-20240411163507884",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://pal-test.adyen.com/pal/servlet/BinLookup/v54/getCostEstimate",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "{\"amount\": {\"currency\": \"891-83-263\", \"value\": -5460369772505459690}, \"merchantAccount\": \"23731-8514\"}",
+      "requestSentAt": "Apr 11, 2024, 4:35:09 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 401
+      },
+      "responseHeaders": "traceparent: 00-10b6a7f3cf4affa13c86ecc6581df689-47b7e646e94801dd-01\nset-cookie: ██\nwww-authenticate: BASIC realm\u003d\"Adyen PAL Service Authentication\"\ncontent-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:35:08 GMT\n",
+      "responseBody": "{\"status\":401,\"errorCode\":\"000\",\"message\":\"HTTP Status Response - Unauthorized\",\"errorType\":\"security\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:35:09 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:35:07 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

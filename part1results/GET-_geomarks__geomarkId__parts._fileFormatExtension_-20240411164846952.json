@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/parts.{fileFormatExtension}-20240411164846952",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/parts.true",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:46 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:46 GMT\nServer: Apache\ncontent-type: application/json;charset\u003dUTF-8\naccess-control-allow-origin: *\nx-kong-upstream-latency: 6\nx-kong-proxy-latency: 1\nvary: Accept-Encoding\nKeep-Alive: timeout\u003d5, max\u003d74\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "{\n  \"rest_api_error\":\"Download format not found\"\n}\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:47 PM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:46 PM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

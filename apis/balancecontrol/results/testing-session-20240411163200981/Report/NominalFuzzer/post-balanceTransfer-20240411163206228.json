@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "post-balanceTransfer-20240411163206228",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://pal-test.adyen.com/pal/servlet/BalanceControl/v1/balanceTransfer",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "{\"amount\": {\"currency\": \"NPG\", \"value\": 0}, \"fromMerchant\": \"PL47 8454 1608 2648 5154 3639 2279\", \"toMerchant\": \"Erlin\", \"type\": \"00056811341\"}",
+      "requestSentAt": "Apr 11, 2024, 4:32:06 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 401
+      },
+      "responseHeaders": "traceparent: 00-aa20f8ee9ebe1fb38565edc8ae4a35ef-806288e38a96d9e1-01\nset-cookie: ██\nwww-authenticate: BASIC realm\u003d\"Adyen PAL Service Authentication\"\ncontent-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:32:05 GMT\n",
+      "responseBody": "{\"status\":401,\"errorCode\":\"000\",\"message\":\"HTTP Status Response - Unauthorized\",\"errorType\":\"security\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:32:06 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:32:06 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

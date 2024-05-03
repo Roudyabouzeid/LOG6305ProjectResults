@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/-20240411160605111",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.ip2location.com/?package\u003doverdiversification%20TB\u0026ip\u003d206.22.210.21\u0026key\u003dW%20JC",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:06:05 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "date: Thu, 11 Apr 2024 20:06:05 GMT\ncontent-type: text/plain;charset\u003dUTF-8\nserver: nginx\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 11, 2024, 4:06:05 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:06:05 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

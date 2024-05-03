@@ -1,0 +1,9 @@
+digraph G {
+  1 [ label="GET /geomarks/{geomarkId}/parts.{fileFormatExtension}" ];
+  2 [ label="GET /geomarks/{geomarkId}.{fileFormatExtension}" ];
+  3 [ label="POST /geomarks/new" ];
+  4 [ label="GET /geomarks/{geomarkId}/feature.{fileFormatExtension}" ];
+  5 [ label="GET /geomarks/{geomarkId}/point.{fileFormatExtension}" ];
+  6 [ label="POST /geomarks/copy" ];
+  7 [ label="GET /geomarks/{geomarkId}/boundingBox.{fileFormatExtension}" ];
+}

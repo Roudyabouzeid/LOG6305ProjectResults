@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getMetrics-20240411163748700",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.apis.guru/v2/metrics.json",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:37:48 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "server: GitHub.com\ncontent-type: application/json; charset\u003dutf-8\nlast-modified: Sat, 22 Apr 2023 00:59:21 GMT\naccess-control-allow-origin: *\netag: W/\"64433169-3de\"\nexpires: Thu, 11 Apr 2024 15:27:40 GMT\ncache-control: max-age\u003d600\nx-proxy-cache: MISS\nx-github-request-id: D1EA:2ACD9F:632DCA:84F09A:6617FF12\naccept-ranges: bytes\ndate: Thu, 11 Apr 2024 20:37:48 GMT\nvia: 1.1 varnish\nage: 0\nx-served-by: cache-yul1970023-YUL\nx-cache: HIT\nx-cache-hits: 2\nx-timer: S1712867869.857320,VS0,VE1\nvary: Accept-Encoding\nx-fastly-request-id: dc5f16268051147ff56a8525863d27d69ac879f1\n",
+      "responseBody": "{\n  \"numSpecs\": 3992,\n  \"numAPIs\": 2529,\n  \"numEndpoints\": 108837,\n  \"unreachable\": 166,\n  \"invalid\": 688,\n  \"unofficial\": 25,\n  \"fixes\": 84860,\n  \"fixedPct\": 23,\n  \"datasets\": [\n    {\n      \"title\": \"providerCount\",\n      \"data\": {\n        \"adyen.com\": 89,\n        \"amadeus.com\": 32,\n        \"amazonaws.com\": 286,\n        \"apideck.com\": 16,\n        \"apisetu.gov.in\": 181,\n        \"azure.com\": 1829,\n        \"ebay.com\": 20,\n        \"fungenerators.com\": 12,\n        \"github.com\": 21,\n        \"googleapis.com\": 464,\n        \"hubapi.com\": 12,\n        \"interzoid.com\": 20,\n        \"mastercard.com\": 14,\n        \"microsoft.com\": 27,\n        \"nexmo.com\": 20,\n        \"nytimes.com\": 11,\n        \"parliament.uk\": 11,\n        \"sportsdata.io\": 35,\n        \"twilio.com\": 44,\n        \"vtex.local\": 34,\n        \"windows.net\": 10,\n        \"Others\": 804\n      }\n    }\n  ],\n  \"stars\": 3151,\n  \"issues\": 35,\n  \"thisWeek\": {\n    \"added\": 9,\n    \"updated\": 437\n  },\n  \"numDrivers\": 10,\n  \"numProviders\": 677\n}",
+      "responseReceivedAt": "Apr 11, 2024, 4:37:48 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:37:48 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

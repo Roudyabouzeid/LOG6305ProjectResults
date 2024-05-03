@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/-20240411161236800",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.ip2proxy.com/?ip\u003d62dd:50e5:1101:374c:ba3f:4c2a:7da2:3e5b\u0026key\u003dE",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:12:37 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 401
+      },
+      "responseHeaders": "date: Thu, 11 Apr 2024 20:12:37 GMT\ncontent-type: application/json\nserver: nginx\n",
+      "responseBody": "{\"response\":\"Invalid API key or insufficient credit.\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:12:37 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:12:36 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

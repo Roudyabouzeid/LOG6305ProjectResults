@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/point.{fileFormatExtension}-20240411164829982",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/point.hidings",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:32 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:31 GMT\nServer: Apache\ncontent-type: application/json;charset\u003dUTF-8\naccess-control-allow-origin: *\nx-kong-upstream-latency: 5\nx-kong-proxy-latency: 1\nvary: Accept-Encoding\nKeep-Alive: timeout\u003d5, max\u003d2\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "{\n  \"rest_api_error\":\"Download format not found\"\n}\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:32 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:29 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

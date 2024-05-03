@@ -1,0 +1,1 @@
+{"documented":["GET /validate","GET /status","GET /convert","GET /badge","POST /convert","POST /validate"],"documentedTested":["GET /validate","GET /status","GET /convert","GET /badge","POST /convert","POST /validate"],"notDocumentedTested":[],"notTested":[]}

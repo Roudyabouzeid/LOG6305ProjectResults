@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getAuthIntrospect-20240411161050430",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://events.1password.com/api/auth/introspect",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:10:50 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 401
+      },
+      "responseHeaders": "date: Thu, 11 Apr 2024 20:10:50 GMT\ncontent-type: application/json; charset\u003dutf-8\ncontent-length: 36\nrequest-id: coc47ilideicmecsv5f0\nx-content-type-options: nosniff\n",
+      "responseBody": "{\"Error\":{\"Message\":\"Unauthorized\"}}",
+      "responseReceivedAt": "Apr 11, 2024, 4:10:50 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:10:50 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

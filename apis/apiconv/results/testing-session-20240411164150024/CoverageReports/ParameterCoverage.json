@@ -1,0 +1,1 @@
+{"documented":{"GET /validate":["url (Url, QUERY)"],"GET /status":[],"GET /convert":["url (Url, QUERY)"],"GET /badge":["url (Url, QUERY)"],"POST /convert":[],"POST /validate":[]},"documentedTested":{"GET /validate":["url (Url, QUERY)"],"GET /convert":["url (Url, QUERY)"],"GET /badge":["url (Url, QUERY)"]},"notDocumentedTested":{},"notTested":{}}

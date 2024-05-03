@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/-20240411160610244",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.ip2location.com/?ip\u003dSIqZDp0\u003d\u0026format\u003djson\u0026key\u003dmadderish",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:06:10 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "date: Thu, 11 Apr 2024 20:06:10 GMT\ncontent-type: application/json\nserver: nginx\n",
+      "responseBody": "{\"response\":\"Invalid IP address.\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:06:10 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:06:10 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

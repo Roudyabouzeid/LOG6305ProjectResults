@@ -1,0 +1,8 @@
+digraph G {
+  1 [ label="GET /badge" ];
+  2 [ label="POST /validate" ];
+  3 [ label="GET /validate" ];
+  4 [ label="GET /status" ];
+  5 [ label="GET /convert" ];
+  6 [ label="POST /convert" ];
+}

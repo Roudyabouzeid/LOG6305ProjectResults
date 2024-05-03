@@ -1,0 +1,1 @@
+{"documented":{"GET /":{"format (Format, QUERY)":["xml","json"]}},"documentedTested":{"GET /":{"format (Format, QUERY)":["xml","json"]}},"notDocumentedTested":{"GET /":{"format (Format, QUERY)":["null","xGmJFEUExst","ME "]}},"notTested":{}}

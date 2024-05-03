@@ -1,0 +1,5 @@
+digraph G {
+  1 [ label="GET /api/auth/introspect" ];
+  2 [ label="POST /api/v1/signinattempts" ];
+  3 [ label="POST /api/v1/itemusages" ];
+}

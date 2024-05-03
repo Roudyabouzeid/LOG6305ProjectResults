@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/feature.{fileFormatExtension}-20240411164827785",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/feature.xml",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:28 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:27 GMT\nServer: Apache\ncontent-type: text/xml;charset\u003dUTF-8\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.xml\nx-kong-upstream-latency: 9\nx-kong-proxy-latency: 1\nvary: Accept-Encoding\nKeep-Alive: timeout\u003d5, max\u003d33\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003citems\u003e\n\u003cgeomark:Geomark xmlns:geomark\u003d\"https://gov.bc.ca/geomark\"\u003e\n\u003cid\u003egm-abcdefghijklmnopqrstuv0bcislands\u003c/id\u003e\n\u003curl\u003ehttps://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\u003c/url\u003e\n\u003cgeometryType\u003eMultiPolygon\u003c/geometryType\u003e\n\u003cnumPolygons\u003e3\u003c/numPolygons\u003e\n\u003cnumParts\u003e3\u003c/numParts\u003e\n\u003ccreateDate\u003e2011-05-12\u003c/createDate\u003e\n\u003cminX\u003e-138.971885\u003c/minX\u003e\n\u003cminY\u003e48.240116\u003c/minY\u003e\n\u003cmaxX\u003e-114.01435\u003c/maxX\u003e\n\u003cmaxY\u003e59.990216\u003c/maxY\u003e\n\u003ccentroidX\u003e-125.014391\u003c/centroidX\u003e\n\u003ccentroidY\u003e54.73437\u003c/centroidY\u003e\n\u003cnumVertices\u003e30\u003c/numVertices\u003e\n\u003clength\u003e6401999.921720007\u003c/length\u003e\n\u003carea\u003e1272199903765\u003c/area\u003e\n\u003cisValid\u003etrue\u003c/isValid\u003e\n\u003cisSimple\u003etrue\u003c/isSimple\u003e\n\u003cisRobust\u003etrue\u003c/isRobust\u003e\n\u003cminimumClearance\u003e13946.188\u003c/minimumClearance\u003e\n\u003cgeometry\u003eSRID\u003d4326;MULTIPOLYGON(((-138.971885 59.834881,-132.646749 54.549674,-131.191845 54.61199,-130.412631 53.393019,-127.781788 51.074595,-125.396011 50.34544,-123.458319 49.276704,-122.520115 48.242418,-114.01435 49.021879,-120.071089 59.990216,-138.971885 59.834881)),((-133.150451 53.728594,-132.372295 52.565245,-131.081532 51.998853,-130.781531 52.155337,-131.637267 53.105476,-131.373205 54.029393,-132.860271 54.27441,-133.150451 53.728594)),((-128.381685 50.724647,-127.798769 50.101624,-126.563052 49.32602,-125.031493 48.5512,-123.726898 48.240116,-123.063842 48.340719,-123.51209 48.904238,-124.165675 49.146052,-125.288438 50.125337,-127.854677 50.902182,-128.381685 50.724647)))\u003c/geometry\u003e\n\u003c/geomark:Geomark\u003e\n\u003c/items\u003e",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:28 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:27 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

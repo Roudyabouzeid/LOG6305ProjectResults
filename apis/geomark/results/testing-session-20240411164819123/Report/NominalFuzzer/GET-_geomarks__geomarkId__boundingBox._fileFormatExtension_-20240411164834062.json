@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/boundingBox.{fileFormatExtension}-20240411164834062",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/boundingBox.shpz",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:37 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:37 GMT\nServer: Apache\ncontent-type: application/x-shp+zip\ncontent-length: 1254\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.shpz\nx-kong-upstream-latency: 8\nx-kong-proxy-latency: 0\nKeep-Alive: timeout\u003d5, max\u003d49\nConnection: Keep-Alive\n",
+      "responseBody": "PK\u0003\u0004\u0014\u0000\b\b\b\u0000\u0012n�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0027\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.dbfc�a�fd``Hd0\u0004Q�\u0000(��\u0002�9�\b#4%�A\u003e(����y\u0015�su\u0013��SR��32��sr��\u000b\n��KJ�\f��3�s\u0012�R�\u0015PAFIIA���~bAA�^z~�^R�^r�~Ai�~zj~nbQ6�.�\u0027���\u000e�\u0000PK\u0007\b\u0003��v\u0000\u0000\u0000�\u0001\u0000\u0000PK\u0003\u0004\u0014\u0000\b\b\b\u0000\u0012n�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0027\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.cpg\u000b\rqӵ\u0000\u0000PK\u0007\bP\u003c�\u000e\u0007\u0000\u0000\u0000\u0005\u0000\u0000\u0000PK\u0003\u0004\u0014\u0000\b\b\b\u0000\u0012n�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0027\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.shpc`P�b�\u000e�^030�\u0002\u0019J���I�\u0027\u001e��_n����R\u001dg��\r1\u0007^�������\u0003\u000e�Ȁ\u0011�\u001d�1\u000b��\u0015�\t]-�\u000fS��\u0017�GW\u000f�\u0003\u0000PK\u0007\b��(:O\u0000\u0000\u0000�\u0000\u0000\u0000PK\u0003\u0004\u0014\u0000\b\b\b\u0000\u0012n�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0027\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.shxc`P�b�\u000e�^030�\u0002\u0019J���I�\u0027\u001e��_n����R\u001dg��\r1\u0007^�������\u0003\u000e���\b�\u001d\u0000PK\u0007\b�#4�9\u0000\u0000\u0000l\u0000\u0000\u0000PK\u0003\u0004\u0014\u0000\b\b\b\u0000\u0012n�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0027\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.prjsw�ww\u000e�V\u0002\u0012�����\u0016\u0026J:.�!���J.HB�\u0001\u001e�A��.�J\b13cs\u000bCcs\u003d\u0003\u001d#K\u000b\u003d#Ss##cS3��X�� O_W�\t�E��y��\u0019J:\u0006z\u0006�:�~�!@sSӁ�`!Cs\u0013Sc#K#SCKK\u0013c�V\u0000PK\u0007\bUC�y\u0000\u0000\u0000�\u0000\u0000\u0000PK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\u0012n�X\u0003��v\u0000\u0000\u0000�\u0001\u0000\u0000\u0027\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.dbfPK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\u0012n�XP\u003c�\u000e\u0007\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0027\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.cpgPK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\u0012n�X��(:O\u0000\u0000\u0000�\u0000\u0000\u0000\u0027\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0027\u0001\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.shpPK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\u0012n�X�#4�9\u0000\u0000\u0000l\u0000\u0000\u0000\u0027\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.shxPK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\u0012n�XUC�y\u0000\u0000\u0000�\u0000\u0000\u0000\u0027\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Y\u0002\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.prjPK\u0005\u0006\u0000\u0000\u0000\u0000\u0005\u0000\u0005\u0000�\u0001\u0000\u0000\u0027\u0003\u0000\u0000\u0000\u0000",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:37 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:34 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

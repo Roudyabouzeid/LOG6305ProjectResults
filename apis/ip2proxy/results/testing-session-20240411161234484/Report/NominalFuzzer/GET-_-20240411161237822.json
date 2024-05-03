@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/-20240411161237822",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.ip2proxy.com/?package\u003dGilpin\u0026ip\u003d79.161.212.203\u0026key\u003dloan",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:12:37 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "date: Thu, 11 Apr 2024 20:12:38 GMT\ncontent-type: application/json\nserver: nginx\n",
+      "responseBody": "{\"response\":\"Invalid package.\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:12:37 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:12:37 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "GET-/bng2latlong/{easting}/{northing}-20240411160346447",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.getthedata.com/bng2latlong/326897/northing",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:03:46 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:03:31 GMT\nServer: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16\nX-Powered-By: PHP/5.4.16\nAccess-Control-Allow-Origin: *\nContent-Length: 183\nKeep-Alive: timeout\u003d5, max\u003d28\nConnection: Keep-Alive\nContent-Type: application/json\n",
+      "responseBody": "{\"status\":\"error\",\"error\":\"Both \u003ceasting\u003e and \u003cnorthing\u003e must be provided, must be positive integers, and must be within range. Where provided, \u003cformat\u003e must be \\\"xml\\\" or \\\"json\\\".\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:03:46 PM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:03:46 PM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

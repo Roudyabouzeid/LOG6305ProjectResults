@@ -1,0 +1,1 @@
+{"documented":{"GET /bng2latlong/{easting}/{northing}":["200"]},"documentedTested":{"GET /bng2latlong/{easting}/{northing}":["200"]},"notDocumentedTested":{},"notTested":{}}

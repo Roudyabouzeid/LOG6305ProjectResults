@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "productsUsingGET-20240411164600709",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://www.klarna.com/us/shopping/public/openai/v0/products?q\u003dremote-controlled",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:46:01 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:46:01 GMT\nvary: Accept-Encoding\nx-cache: Miss from cloudfront\nvia: 1.1 e2bc53c67d7a4b6beae25c798d638b10.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-P2\nx-amz-cf-id: mZSiUfTTg1RTQHzlbszKb5XNc673_UcU45j7B5i6DLeIvIefDXpAzw\u003d\u003d\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\n",
+      "responseBody": "{\"products\":[{\"name\":\"Trailer Valet 5,500 lbs. Remote Controlled Trailer Mover\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl1354/3203087774/Trailers/Trailer-Valet-5-500-lbs.-Remote-Controlled-Trailer-Mover/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$3249.00\",\"attributes\":[]},{\"name\":\"Warehouse of Tiffany Ceiling Fans Black Black Rope Remote-Controlled\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl401/3207071214/Fans/Warehouse-of-Tiffany-Ceiling-Fans-Black-Black-Rope-Remote-Controlled/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$532.79\",\"attributes\":[]},{\"name\":\"Feit Smart Plug\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl710/3202108253/Electrical-Accessories/Feit-Smart-Plug/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$13.99\",\"attributes\":[]},{\"name\":\"FEIT Electric Outdoor Smart Wi-Fi Dual Outlet Wall Plug\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl710/3202061926/Electrical-Accessories/FEIT-Electric-Outdoor-Smart-Wi-Fi-Dual-Outlet-Wall-Plug/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$18.99\",\"attributes\":[]},{\"name\":\"Sonic Tails the Fox Nkok 603 2.4Ghz Remote Controlled Car with Turbo Boost\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl1559/3208751713/RC-Toys/Sonic-Tails-the-Fox-Nkok-603-2.4Ghz-Remote-Controlled-Car-with-Turbo-Boost/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$26.99\",\"attributes\":[]}]}",
+      "responseReceivedAt": "Apr 11, 2024, 4:46:01 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:46:00 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

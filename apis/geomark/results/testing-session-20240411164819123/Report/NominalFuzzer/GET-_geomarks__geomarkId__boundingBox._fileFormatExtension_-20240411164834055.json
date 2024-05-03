@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/boundingBox.{fileFormatExtension}-20240411164834055",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/boundingBox.kmz",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:35 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:35 GMT\nServer: Apache\ncontent-type: application/vnd.google-earth.kmz\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.kmz\nx-kong-upstream-latency: 9\nx-kong-proxy-latency: 2\nKeep-Alive: timeout\u003d5, max\u003d72\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "PK\u0003\u0004\u0014\u0000\b\b\b\u0000\u0011n�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000doc.kml�T�n�0\u0010��+\u0004\u0015�)\u0026E�z5���i�\u0002E\u00104�\u0007��ZVM�*I9�ߗ���MzH�\u003d�pw����.\u001fz\u0011nA�N�EDP\u001c� k�t�]Dw?�̊�\n�Ʊ\u001cS�E��vx����\u003dR\u0003ȶ3H�Ŏ�\u0013�D�|��\u0007i\u001d����+���M(G!\u0018�R\u0001k�Ժ\u001b�ӭ΄�\u0018�Z{�It�\u0026�G\u001e�5��j���a0�U[��Q��0.q�o{�\u0006���KD��\u001a4�\u003e��S�R:앆��\u000e��ˢ�\u003e�2|z����*��\u0014\u0003�]��\u0007?�Pn^;6P�H�!Z�\t��\u0019u짪c:�\t�\u0014\u0011��,-�ԁ�PG\u003c\u0016\u0003��\u0001�\f?‭��\u0015��\u0011\u0006�v���\u0014\u0003��l�\"E��4gx\f\u0018~���5��q�Vv�\u0000�b���۱��\t�Ӣ:z�o���û�?n�ϐ+�;$�`�Ga\u0019~l\u0018��\u000f\u0016d\u0003�\u0015��;م�\u001bv\u0011u�����\u0011*g4��\u001bX����F�R\r����6^֝\u0011\\6��\u003d�]�e�Q��fot�ۅ�n�ص{��\u0016�G5ʆ��7�-�I���~1�R��[0�\u0018�\u0002�9)\n�t��yrN\u000b�И�,�gqFHy~ͯ�\u0019!\u0014ń��x^�tN^�KKT�qBҌP���\u0003���Tf�t.o�ә��7�O\u000f�O�R��;�\rW\u0005\u0000PK\u0007\b�Q\u001f`8\u0002\u0000\u0000N\u0005\u0000\u0000PK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\u0011n�X�Q\u001f`8\u0002\u0000\u0000N\u0005\u0000\u0000\u0007\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000doc.kmlPK\u0005\u0006\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u00005\u0000\u0000\u0000m\u0002\u0000\u0000\u0000\u0000",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:35 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:34 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

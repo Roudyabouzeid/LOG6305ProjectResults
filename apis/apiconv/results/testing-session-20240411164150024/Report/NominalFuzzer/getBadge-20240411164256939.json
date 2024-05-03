@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getBadge-20240411164256939",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://mermade.org.uk/api/v1/badge?url\u003dhttps://raw.githubusercontent.com/Mermade/openapi-webconverter/master/contract/openapi.json",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:42:57 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 502
+      },
+      "responseHeaders": "Server: nginx/1.18.0 (Ubuntu)\nDate: Thu, 11 Apr 2024 20:42:57 GMT\nContent-Type: text/html\nContent-Length: 166\nConnection: keep-alive\n",
+      "responseBody": "\u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e502 Bad Gateway\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e502 Bad Gateway\u003c/h1\u003e\u003c/center\u003e\r\n\u003chr\u003e\u003ccenter\u003enginx/1.18.0 (Ubuntu)\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:42:57 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:42:56 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

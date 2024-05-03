@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "POST-/geomarks/new-20240411164842292",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/new",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "redirectUrl\u003dhttp%3A%2F%2Ffjac.gyroctfcnu.de%2F\u0026format\u003dkml",
+      "requestSentAt": "Apr 11, 2024, 4:48:43 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:43 GMT\nServer: Apache\ncontent-type: application/json; charset\u003dutf-8\naccess-control-allow-origin: *\ncontent-language: en\nx-kong-upstream-latency: 4\nx-kong-proxy-latency: 0\nConnection: close\nTransfer-Encoding: chunked\n",
+      "responseBody": "{\"message\":\"Upstream service error - An unexpected error occurred\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:44 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:42 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

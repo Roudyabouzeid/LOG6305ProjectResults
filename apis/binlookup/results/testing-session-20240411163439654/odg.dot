@@ -1,0 +1,4 @@
+digraph G {
+  1 [ label="POST /getCostEstimate" ];
+  2 [ label="POST /get3dsAvailability" ];
+}

@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/boundingBox.{fileFormatExtension}-20240411164834064",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/boundingBox.kml",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:38 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:37 GMT\nServer: Apache\ncontent-type: application/vnd.google-earth.kml+xml;charset\u003dUTF-8\ncontent-length: 1358\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.kml\nx-kong-upstream-latency: 5\nx-kong-proxy-latency: 0\nKeep-Alive: timeout\u003d5, max\u003d45\nConnection: Keep-Alive\n",
+      "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003ckml xmlns\u003d\"http://www.opengis.net/kml/2.2\"\u003e\n\u003cDocument\u003e\n\u003cname\u003eGeomark null\u003c/name\u003e\n\u003cdescription\u003e\u0026lt;p\u0026gt;Click \u0026lt;a href\u003d\"https://apps.gov.bc.ca/pub/geomark/geomarks/gm-null\"\u0026gt;here\u0026lt;/a\u0026gt; for more information.\u0026lt;/p\u0026gt;\u003c/description\u003e\n\u003copen\u003e1\u003c/open\u003e\n\u003cLookAt\u003e\n\u003clongitude\u003e-126.4931177745641\u003c/longitude\u003e\n\u003clatitude\u003e54.115165925115214\u003c/latitude\u003e\n\u003caltitude\u003e0\u003c/altitude\u003e\n\u003cheading\u003e0\u003c/heading\u003e\n\u003ctilt\u003e0\u003c/tilt\u003e\n\u003crange\u003e1826047\u003c/range\u003e\n\u003c/LookAt\u003e\n\u003cPlacemark\u003e\n\u003cSnippet\u003e\u003c/Snippet\u003e\n\u003cLookAt\u003e\n\u003clongitude\u003e-126.4931177745641\u003c/longitude\u003e\n\u003clatitude\u003e54.115165925115214\u003c/latitude\u003e\n\u003caltitude\u003e0\u003c/altitude\u003e\n\u003cheading\u003e0\u003c/heading\u003e\n\u003ctilt\u003e0\u003c/tilt\u003e\n\u003crange\u003e1826047\u003c/range\u003e\n\u003c/LookAt\u003e\n\u003cstyleUrl\u003ehttps://openmaps.gov.bc.ca/kml/geomark/geomarkStyle.kml#geomarkDefault\u003c/styleUrl\u003e\n\u003cExtendedData\u003e\n\u003cData name\u003d\"id\"\u003e\n\u003cvalue\u003egm-abcdefghijklmnopqrstuv0bcislands\u003c/value\u003e\n\u003c/Data\u003e\n\u003cData name\u003d\"url\"\u003e\n\u003cvalue\u003ehttps://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\u003c/value\u003e\n\u003c/Data\u003e\n\u003c/ExtendedData\u003e\n\u003cPolygon\u003e\n\u003couterBoundaryIs\u003e\n\u003cLinearRing\u003e\n\u003ccoordinates\u003e-138.9718851616972,48.24011623606119,NaN -114.014350387431,48.24011623606119,NaN -114.014350387431,59.99021561416924,NaN -138.9718851616972,59.99021561416924,NaN -138.9718851616972,48.24011623606119,NaN\u003c/coordinates\u003e\n\u003c/LinearRing\u003e\n\u003c/outerBoundaryIs\u003e\n\u003c/Polygon\u003e\n\u003c/Placemark\u003e\n\u003c/Document\u003e\n\u003c/kml\u003e\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:38 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:34 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "POST-/v1/order/feedback-20240411154625352",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://api.fraudlabspro.com/v1/order/feedback?notes\u003dKKt\u0026action\u003dREJECT\u0026id\u003dy\u0026key\u003dcoal-dark%20sculpted",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 11, 2024, 3:46:27 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: text/xml;charset\u003dUTF-8\ndate: Thu, 11 Apr 2024 19:46:27 GMT\nserver: nginx\nvary: Accept-Encoding\nx-frame-options: DENY\nx-xss-protection: 1; mode\u003dblock\nx-content-type-options: nosniff\nreferrer-policy: no-referrer-when-downgrade\ncontent-security-policy: frame-ancestors \u0027self\u0027 *.mybigcommerce.com my.ecwid.com;\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\npermissions-policy: accelerometer\u003d(), camera\u003d(), geolocation\u003d(), gyroscope\u003d(), magnetometer\u003d(), microphone\u003d(), payment\u003d(), usb\u003d(), interest-cohort\u003d()\nx-cache: Miss from cloudfront\nvia: 1.1 b6e7d60d529540ac03c94ffa742017e4.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-C1\nx-amz-cf-id: V-TF7Hvj40e2Y7ugydoF-IkQ-GD_7BiGenG5aMKy-zZU7sW0b22-Lg\u003d\u003d\n",
+      "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\u003c/response\u003e",
+      "responseReceivedAt": "Apr 11, 2024, 3:46:27 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 3:46:25 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

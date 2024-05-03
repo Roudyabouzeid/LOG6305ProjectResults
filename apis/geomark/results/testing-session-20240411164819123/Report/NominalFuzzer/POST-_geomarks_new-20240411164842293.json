@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "POST-/geomarks/new-20240411164842293",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/new",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "resultFormat\u003dkml",
+      "requestSentAt": "Apr 11, 2024, 4:48:44 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:43 GMT\nServer: Apache\ncontent-type: application/vnd.google-earth.kml+xml;charset\u003dUTF-8\naccess-control-allow-origin: *\nx-kong-upstream-latency: 3\nx-kong-proxy-latency: 0\nKeep-Alive: timeout\u003d5, max\u003d100\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003ckml xmlns\u003d\"http://www.opengis.net/kml/2.2\"\u003e\n\u003cDocument\u003e\n\u003cPlacemark\u003e\n\u003cExtendedData\u003e\n\u003cData name\u003d\"resultFormat\"\u003e\n\u003cvalue\u003e[Ljava.lang.String;@5828f7f1\u003c/value\u003e\n\u003c/Data\u003e\n\u003cData name\u003d\"format_Error\"\u003e\n\u003cvalue\u003eFile format\u003dnull not supported\u003c/value\u003e\n\u003c/Data\u003e\n\u003cData name\u003d\"error\"\u003e\n\u003cvalue\u003eFile format\u003dnull not supported\u003c/value\u003e\n\u003c/Data\u003e\n\u003c/ExtendedData\u003e\n\u003c/Placemark\u003e\n\u003c/Document\u003e\n\u003c/kml\u003e",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:44 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:42 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

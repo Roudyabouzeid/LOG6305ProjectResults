@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/parts.{fileFormatExtension}-20240411164819274",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/parts.json",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:20 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:20 GMT\nServer: Apache\ncontent-type: application/json;charset\u003dUTF-8\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.json\nx-kong-upstream-latency: 11\nx-kong-proxy-latency: 0\nvary: Accept-Encoding\nKeep-Alive: timeout\u003d5, max\u003d97\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "{\"items\": [\n{\n\"id\":\"#0 of gm-abcdefghijklmnopqrstuv0bcislands\",\n\"url\":\"https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\",\n\"geometryType\":\"Polygon\",\n\"partIndex\":0,\n\"numPolygons\":1,\n\"numParts\":1,\n\"createDate\":\"2011-05-12\",\n\"minX\":-138.971885,\n\"minY\":48.242418,\n\"maxX\":-114.01435,\n\"maxY\":59.990216,\n\"centroidX\":-124.879924,\n\"centroidY\":54.916609,\n\"numVertices\":11,\n\"length\":4732734.645762993,\n\"area\":1211994699457,\n\"isValid\":true,\n\"isSimple\":true,\n\"isRobust\":true,\n\"minimumClearance\":94071.344,\n\"geometry\":\"SRID\u003d4326;POLYGON((-138.971885 59.834881,-132.646749 54.549674,-131.191845 54.61199,-130.412631 53.393019,-127.781788 51.074595,-125.396011 50.34544,-123.458319 49.276704,-122.520115 48.242418,-114.01435 49.021879,-120.071089 59.990216,-138.971885 59.834881))\"\n},\n{\n\"id\":\"#1 of gm-abcdefghijklmnopqrstuv0bcislands\",\n\"url\":\"https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\",\n\"geometryType\":\"Polygon\",\n\"partIndex\":1,\n\"numPolygons\":1,\n\"numParts\":1,\n\"createDate\":\"2011-05-12\",\n\"minX\":-133.150451,\n\"minY\":51.998853,\n\"maxX\":-130.781531,\n\"maxY\":54.27441,\n\"centroidX\":-132.05668,\n\"centroidY\":53.246655,\n\"numVertices\":8,\n\"length\":664727.6037694025,\n\"area\":19496221667,\n\"isValid\":true,\n\"isSimple\":true,\n\"isRobust\":true,\n\"minimumClearance\":26939.839,\n\"geometry\":\"SRID\u003d4326;POLYGON((-133.150451 53.728594,-132.372295 52.565245,-131.081532 51.998853,-130.781531 52.155337,-131.637267 53.105476,-131.373205 54.029393,-132.860271 54.27441,-133.150451 53.728594))\"\n},\n{\n\"id\":\"#2 of gm-abcdefghijklmnopqrstuv0bcislands\",\n\"url\":\"https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\",\n\"geometryType\":\"Polygon\",\n\"partIndex\":2,\n\"numPolygons\":1,\n\"numParts\":1,\n\"createDate\":\"2011-05-12\",\n\"minX\":-128.381685,\n\"minY\":48.240116,\n\"maxX\":-123.063842,\n\"maxY\":50.902182,\n\"centroidX\":-125.744188,\n\"centroidY\":49.553483,\n\"numVertices\":11,\n\"length\":1004537.6721876118,\n\"area\":40708982640,\n\"isValid\":true,\n\"isSimple\":true,\n\"isRobust\":true,\n\"minimumClearance\":41995.195,\n\"geometry\":\"SRID\u003d4326;POLYGON((-128.381685 50.724647,-127.798769 50.101624,-126.563052 49.32602,-125.031493 48.5512,-123.726898 48.240116,-123.063842 48.340719,-123.51209 48.904238,-124.165675 49.146052,-125.288438 50.125337,-127.854677 50.902182,-128.381685 50.724647))\"\n}\n]}\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:20 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:19 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

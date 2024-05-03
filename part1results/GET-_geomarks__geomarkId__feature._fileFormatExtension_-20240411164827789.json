@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/feature.{fileFormatExtension}-20240411164827789",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/feature.json",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:29 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:28 GMT\nServer: Apache\ncontent-type: application/json;charset\u003dUTF-8\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.json\nx-kong-upstream-latency: 8\nx-kong-proxy-latency: 0\nvary: Accept-Encoding\nKeep-Alive: timeout\u003d5, max\u003d27\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "{\"items\": [\n{\n\"id\":\"gm-abcdefghijklmnopqrstuv0bcislands\",\n\"url\":\"https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\",\n\"geometryType\":\"MultiPolygon\",\n\"numPolygons\":3,\n\"numParts\":3,\n\"createDate\":\"2011-05-12\",\n\"minX\":-138.971885,\n\"minY\":48.240116,\n\"maxX\":-114.01435,\n\"maxY\":59.990216,\n\"centroidX\":-125.014391,\n\"centroidY\":54.73437,\n\"numVertices\":30,\n\"length\":6401999.921720007,\n\"area\":1272199903765,\n\"isValid\":true,\n\"isSimple\":true,\n\"isRobust\":true,\n\"minimumClearance\":13946.188,\n\"geometry\":\"SRID\u003d4326;MULTIPOLYGON(((-138.971885 59.834881,-132.646749 54.549674,-131.191845 54.61199,-130.412631 53.393019,-127.781788 51.074595,-125.396011 50.34544,-123.458319 49.276704,-122.520115 48.242418,-114.01435 49.021879,-120.071089 59.990216,-138.971885 59.834881)),((-133.150451 53.728594,-132.372295 52.565245,-131.081532 51.998853,-130.781531 52.155337,-131.637267 53.105476,-131.373205 54.029393,-132.860271 54.27441,-133.150451 53.728594)),((-128.381685 50.724647,-127.798769 50.101624,-126.563052 49.32602,-125.031493 48.5512,-123.726898 48.240116,-123.063842 48.340719,-123.51209 48.904238,-124.165675 49.146052,-125.288438 50.125337,-127.854677 50.902182,-128.381685 50.724647)))\"\n}\n]}\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:29 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:27 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

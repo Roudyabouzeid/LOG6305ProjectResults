@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/point.{fileFormatExtension}-20240411164829972",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/point.gml",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:30 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:29 GMT\nServer: Apache\ncontent-type: application/gml+xml;charset\u003dUTF-8\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.gml\nx-kong-upstream-latency: 8\nx-kong-proxy-latency: 1\nKeep-Alive: timeout\u003d5, max\u003d17\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cgml:FeatureCollection xmlns:geomark\u003d\"https://gov.bc.ca/geomark\" xmlns:gml\u003d\"http://www.opengis.net/gml\"\u003e\n\u003cgml:boundedBy\u003e\n\u003cgml:Box srsName\u003d\"EPSG:4326\"\u003e\n\u003cgml:coordinates\u003e-180,-90 180,90\u003c/gml:coordinates\u003e\n\u003c/gml:Box\u003e\n\u003c/gml:boundedBy\u003e\n\u003cgml:featureMember\u003e\n\u003cgeomark:GeomarkPoint\u003e\n\u003cgeomark:id\u003egm-abcdefghijklmnopqrstuv0bcislands\u003c/geomark:id\u003e\n\u003cgeomark:url\u003ehttps://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\u003c/geomark:url\u003e\n\u003cgeomark:geometry\u003e\n\u003cgml:Point srsName\u003d\"EPSG:4326\"\u003e\n\u003cgml:coordinates\u003e-124.879924,54.916609\u003c/gml:coordinates\u003e\n\u003c/gml:Point\u003e\n\u003c/geomark:geometry\u003e\n\u003c/geomark:GeomarkPoint\u003e\n\u003c/gml:featureMember\u003e\n\u003c/gml:FeatureCollection\u003e",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:30 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:29 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

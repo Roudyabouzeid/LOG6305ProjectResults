@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "POST-/v1/order/screen-20240411154628759",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://api.fraudlabspro.com/v1/order/screen?amount\u003d792903446\u0026card_hash\u003d\u0026ip\u003df696:5520:8745:ce36:7989:3008:5c67:dc3b\u0026format\u003djson\u0026ship_state\u003dj8L6viN2C3\u0026email_domain\u003dj@xozbrf.de\u0026first_name\u003dDemy\u0026key\u003d6yEQvkIfKV79t9nXPNamIUxHfXzQ1PawBw\u003d\u003d",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 11, 2024, 3:46:30 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json; charset\u003dutf-8\ndate: Thu, 11 Apr 2024 19:46:30 GMT\nserver: nginx\nvary: Accept-Encoding\nx-frame-options: DENY\nx-xss-protection: 1; mode\u003dblock\nx-content-type-options: nosniff\nreferrer-policy: no-referrer-when-downgrade\ncontent-security-policy: frame-ancestors \u0027self\u0027 *.mybigcommerce.com my.ecwid.com;\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\npermissions-policy: accelerometer\u003d(), camera\u003d(), geolocation\u003d(), gyroscope\u003d(), magnetometer\u003d(), microphone\u003d(), payment\u003d(), usb\u003d(), interest-cohort\u003d()\nx-cache: Miss from cloudfront\nvia: 1.1 b6e7d60d529540ac03c94ffa742017e4.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-C1\nx-amz-cf-id: zhZ53uPsAdSi4PhgDeLU0F88gK3qgX_G9jnKZyWM7m5dvbGd82RYKQ\u003d\u003d\n",
+      "responseBody": "{\"is_country_match\":\"NA\",\"is_high_risk_country\":\"N\",\"distance_in_km\":\"-\",\"distance_in_mile\":\"-\",\"ip_country\":\"\",\"ip_continent\":\"\",\"ip_region\":\"\",\"ip_city\":\"\",\"ip_latitude\":\"\",\"ip_longitude\":\"\",\"ip_timezone\":\"\",\"ip_elevation\":\"\",\"ip_domain\":\"\",\"ip_mobile_mnc\":\"NA\",\"ip_mobile_mcc\":\"NA\",\"ip_mobile_brand\":\"NA\",\"ip_netspeed\":\"NA\",\"ip_isp_name\":\"NA\",\"ip_usage_type\":\"NA\",\"is_free_email\":\"NA\",\"is_new_domain_name\":\"NA\",\"is_domain_exists\":\"NA\",\"is_disposable_email\":\"NA\",\"is_proxy_ip_address\":\"NA\",\"is_bin_found\":\"NA\",\"is_bin_country_match\":\"NA\",\"is_bin_name_match\":\"NA\",\"is_bin_phone_match\":\"NA\",\"is_bin_phone_country_match\":\"NA\",\"is_bin_prepaid\":\"NA\",\"is_address_ship_forward\":\"NA\",\"is_bill_ship_city_match\":\"NA\",\"is_bill_ship_state_match\":\"NA\",\"is_bill_ship_country_match\":\"NA\",\"is_bill_ship_postal_match\":\"NA\",\"is_ship_address_blacklist\":\"NA\",\"is_phone_blacklist\":\"NA\",\"is_ip_blacklist\":\"N\",\"is_email_blacklist\":\"NA\",\"is_credit_card_blacklist\":\"NA\",\"is_device_blacklist\":\"NA\",\"is_user_blacklist\":\"NA\",\"is_high_risk_username\":\"NA\",\"is_export_controlled_country\":\"NA\",\"is_malware_exploit\":\"NA\",\"is_disposable_phone_number\":\"NA\",\"user_order_id\":\"\",\"user_order_memo\":\"\",\"card_brand\":\"NA\",\"card_type\":\"NA\",\"card_subtype\":\"NA\",\"card_issuing_bank\":\"NA\",\"card_issuing_country\":\"-\",\"fraudlabspro_score\":100,\"fraudlabspro_distribution\":0,\"fraudlabspro_status\":\"APPROVE\",\"fraudlabspro_id\":\"NA\",\"fraudlabspro_rules\":\"\",\"fraudlabspro_version\":\"1.5.1\",\"fraudlabspro_error_code\":\"101\",\"fraudlabspro_message\":\"INVALID API KEY\",\"fraudlabspro_credits\":\"0\",\"device_id\":\"NA\"}",
+      "responseReceivedAt": "Apr 11, 2024, 3:46:30 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 3:46:28 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

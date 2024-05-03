@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/boundingBox.{fileFormatExtension}-20240411164834056",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/boundingBox.gml",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:35 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:35 GMT\nServer: Apache\ncontent-type: application/gml+xml;charset\u003dUTF-8\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.gml\nx-kong-upstream-latency: 9\nx-kong-proxy-latency: 0\nKeep-Alive: timeout\u003d5, max\u003d68\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cgml:FeatureCollection xmlns:geomark\u003d\"https://gov.bc.ca/geomark\" xmlns:gml\u003d\"http://www.opengis.net/gml\"\u003e\n\u003cgml:boundedBy\u003e\n\u003cgml:Box srsName\u003d\"EPSG:4326\"\u003e\n\u003cgml:coordinates\u003e-180,-90 180,90\u003c/gml:coordinates\u003e\n\u003c/gml:Box\u003e\n\u003c/gml:boundedBy\u003e\n\u003cgml:featureMember\u003e\n\u003cgeomark:GeomarkBoundingBox\u003e\n\u003cgeomark:id\u003egm-abcdefghijklmnopqrstuv0bcislands\u003c/geomark:id\u003e\n\u003cgeomark:url\u003ehttps://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\u003c/geomark:url\u003e\n\u003cgeomark:geometry\u003e\n\u003cgml:Polygon srsName\u003d\"EPSG:4326\"\u003e\n\u003cgml:outerBoundaryIs\u003e\n\u003cgml:LinearRing\u003e\n\u003cgml:coordinates\u003e-138.971885,48.240116 -114.01435,48.240116 -114.01435,59.990216 -138.971885,59.990216 -138.971885,48.240116\u003c/gml:coordinates\u003e\n\u003c/gml:LinearRing\u003e\n\u003c/gml:outerBoundaryIs\u003e\n\u003c/gml:Polygon\u003e\n\u003c/geomark:geometry\u003e\n\u003c/geomark:GeomarkBoundingBox\u003e\n\u003c/gml:featureMember\u003e\n\u003c/gml:FeatureCollection\u003e",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:35 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:34 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

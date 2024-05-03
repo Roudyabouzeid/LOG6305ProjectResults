@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/-20240411161235801",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.ip2proxy.com/?package\u003do%20\u0026ip\u003d121.1.226.192\u0026key\u003dIRE%20",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:12:36 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "date: Thu, 11 Apr 2024 20:12:36 GMT\ncontent-type: application/json\nserver: nginx\n",
+      "responseBody": "{\"response\":\"Invalid package.\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:12:36 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:12:35 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/v1/validation/single-20240411161739390",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.mailboxvalidator.com/v1/validation/single?format\u003dxml\u0026email\u003dwzp@msjr.it\u0026key\u003dMaja",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:17:40 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: text/xml;charset\u003dUTF-8\nserver: nginx\ndate: Thu, 11 Apr 2024 20:17:40 GMT\nx-frame-options: DENY\nx-xss-protection: 1; mode\u003dblock\nx-content-type-options: nosniff\nreferrer-policy: no-referrer-when-downgrade\ncontent-security-policy: default-src * data: \u0027unsafe-eval\u0027 \u0027unsafe-inline\u0027;frame-ancestors \u0027self\u0027;\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\npermissions-policy: accelerometer\u003d(), camera\u003d(), geolocation\u003d(), gyroscope\u003d(), magnetometer\u003d(), microphone\u003d(), payment\u003d(), usb\u003d(), interest-cohort\u003d()\nx-cache: Miss from cloudfront\nvia: 1.1 baa0aaa1ff4766ddf3afe80431a74b82.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-P1\nx-amz-cf-id: Qk0yC4saZ0wtMB_YDgnJ1t4GBGGI48NVOItO82yr3rDgyVTPDdbIjQ\u003d\u003d\n",
+      "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cemail_address\u003e\u003c/email_address\u003e\n\t\u003cdomain\u003e\u003c/domain\u003e\n\t\u003cis_free\u003e\u003c/is_free\u003e\n\t\u003cis_syntax\u003e\u003c/is_syntax\u003e\n\t\u003cis_domain\u003e\u003c/is_domain\u003e\n\t\u003cis_smtp\u003e\u003c/is_smtp\u003e\n\t\u003cis_verified\u003e\u003c/is_verified\u003e\n\t\u003cis_server_down\u003e\u003c/is_server_down\u003e\n\t\u003cis_greylisted\u003e\u003c/is_greylisted\u003e\n\t\u003cis_disposable\u003e\u003c/is_disposable\u003e\n\t\u003cis_suppressed\u003e\u003c/is_suppressed\u003e\n\t\u003cis_role\u003e\u003c/is_role\u003e\n\t\u003cis_high_risk\u003e\u003c/is_high_risk\u003e\n\t\u003cis_catchall\u003e\u003c/is_catchall\u003e\n\t\u003cmailboxvalidator_score\u003e\u003c/mailboxvalidator_score\u003e\n\t\u003ctime_taken\u003e0.0038\u003c/time_taken\u003e\n\t\u003cstatus\u003e\u003c/status\u003e\n\t\u003ccredits_available\u003e\u003c/credits_available\u003e\n\t\u003cerror_code\u003e101\u003c/error_code\u003e\n\t\u003cerror_message\u003eAPI key not found.\u003c/error_message\u003e\n\u003c/response\u003e",
+      "responseReceivedAt": "Apr 11, 2024, 4:17:40 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:17:39 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

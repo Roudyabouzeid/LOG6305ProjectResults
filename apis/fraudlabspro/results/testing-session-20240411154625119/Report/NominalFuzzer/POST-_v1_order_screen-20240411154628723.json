@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "POST-/v1/order/screen-20240411154628723",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://api.fraudlabspro.com/v1/order/screen?email_hash\u003dczwwzh@outlook.com\u0026ip\u003d147.229.25.130\u0026key\u003dprosupport",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 11, 2024, 3:46:29 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: text/xml;charset\u003dUTF-8\ndate: Thu, 11 Apr 2024 19:46:29 GMT\nserver: nginx\nvary: Accept-Encoding\nx-frame-options: DENY\nx-xss-protection: 1; mode\u003dblock\nx-content-type-options: nosniff\nreferrer-policy: no-referrer-when-downgrade\ncontent-security-policy: frame-ancestors \u0027self\u0027 *.mybigcommerce.com my.ecwid.com;\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\npermissions-policy: accelerometer\u003d(), camera\u003d(), geolocation\u003d(), gyroscope\u003d(), magnetometer\u003d(), microphone\u003d(), payment\u003d(), usb\u003d(), interest-cohort\u003d()\nx-cache: Miss from cloudfront\nvia: 1.1 b6e7d60d529540ac03c94ffa742017e4.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-C1\nx-amz-cf-id: AohqG73uYaQpgO9MlP4OByUjaTWmBR3QIt03ELtPIWNJFcWIrIYmcw\u003d\u003d\n",
+      "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cis_country_match\u003eNA\u003c/is_country_match\u003e\n\t\u003cis_high_risk_country\u003eN\u003c/is_high_risk_country\u003e\n\t\u003cdistance_in_km\u003e-\u003c/distance_in_km\u003e\n\t\u003cdistance_in_mile\u003e-\u003c/distance_in_mile\u003e\n\t\u003cip_country\u003e\u003c/ip_country\u003e\n\t\u003cip_continent\u003e\u003c/ip_continent\u003e\n\t\u003cip_region\u003e\u003c/ip_region\u003e\n\t\u003cip_city\u003e\u003c/ip_city\u003e\n\t\u003cip_latitude\u003e\u003c/ip_latitude\u003e\n\t\u003cip_longitude\u003e\u003c/ip_longitude\u003e\n\t\u003cip_timezone\u003e\u003c/ip_timezone\u003e\n\t\u003cip_elevation\u003e\u003c/ip_elevation\u003e\n\t\u003cip_domain\u003e\u003c/ip_domain\u003e\n\t\u003cip_mobile_mnc\u003eNA\u003c/ip_mobile_mnc\u003e\n\t\u003cip_mobile_mcc\u003eNA\u003c/ip_mobile_mcc\u003e\n\t\u003cip_mobile_brand\u003eNA\u003c/ip_mobile_brand\u003e\n\t\u003cip_netspeed\u003eNA\u003c/ip_netspeed\u003e\n\t\u003cip_isp_name\u003eNA\u003c/ip_isp_name\u003e\n\t\u003cip_usage_type\u003eNA\u003c/ip_usage_type\u003e\n\t\u003cis_free_email\u003eNA\u003c/is_free_email\u003e\n\t\u003cis_new_domain_name\u003eNA\u003c/is_new_domain_name\u003e\n\t\u003cis_domain_exists\u003eNA\u003c/is_domain_exists\u003e\n\t\u003cis_disposable_email\u003eNA\u003c/is_disposable_email\u003e\n\t\u003cis_proxy_ip_address\u003eNA\u003c/is_proxy_ip_address\u003e\n\t\u003cis_bin_found\u003eNA\u003c/is_bin_found\u003e\n\t\u003cis_bin_country_match\u003eNA\u003c/is_bin_country_match\u003e\n\t\u003cis_bin_name_match\u003eNA\u003c/is_bin_name_match\u003e\n\t\u003cis_bin_phone_match\u003eNA\u003c/is_bin_phone_match\u003e\n\t\u003cis_bin_phone_country_match\u003eNA\u003c/is_bin_phone_country_match\u003e\n\t\u003cis_bin_prepaid\u003eNA\u003c/is_bin_prepaid\u003e\n\t\u003cis_address_ship_forward\u003eNA\u003c/is_address_ship_forward\u003e\n\t\u003cis_bill_ship_city_match\u003eNA\u003c/is_bill_ship_city_match\u003e\n\t\u003cis_bill_ship_state_match\u003eNA\u003c/is_bill_ship_state_match\u003e\n\t\u003cis_bill_ship_country_match\u003eNA\u003c/is_bill_ship_country_match\u003e\n\t\u003cis_bill_ship_postal_match\u003eNA\u003c/is_bill_ship_postal_match\u003e\n\t\u003cis_ship_address_blacklist\u003eNA\u003c/is_ship_address_blacklist\u003e\n\t\u003cis_phone_blacklist\u003eNA\u003c/is_phone_blacklist\u003e\n\t\u003cis_ip_blacklist\u003eN\u003c/is_ip_blacklist\u003e\n\t\u003cis_email_blacklist\u003eNA\u003c/is_email_blacklist\u003e\n\t\u003cis_credit_card_blacklist\u003eNA\u003c/is_credit_card_blacklist\u003e\n\t\u003cis_device_blacklist\u003eNA\u003c/is_device_blacklist\u003e\n\t\u003cis_user_blacklist\u003eNA\u003c/is_user_blacklist\u003e\n\t\u003cis_high_risk_username\u003eNA\u003c/is_high_risk_username\u003e\n\t\u003cis_export_controlled_country\u003eNA\u003c/is_export_controlled_country\u003e\n\t\u003cis_malware_exploit\u003eNA\u003c/is_malware_exploit\u003e\n\t\u003cis_disposable_phone_number\u003eNA\u003c/is_disposable_phone_number\u003e\n\t\u003cuser_order_id\u003e\u003c/user_order_id\u003e\n\t\u003cuser_order_memo\u003e\u003c/user_order_memo\u003e\n\t\u003ccard_brand\u003eNA\u003c/card_brand\u003e\n\t\u003ccard_type\u003eNA\u003c/card_type\u003e\n\t\u003ccard_subtype\u003eNA\u003c/card_subtype\u003e\n\t\u003ccard_issuing_bank\u003eNA\u003c/card_issuing_bank\u003e\n\t\u003ccard_issuing_country\u003e-\u003c/card_issuing_country\u003e\n\t\u003cfraudlabspro_score\u003e100\u003c/fraudlabspro_score\u003e\n\t\u003cfraudlabspro_distribution\u003e0\u003c/fraudlabspro_distribution\u003e\n\t\u003cfraudlabspro_status\u003eAPPROVE\u003c/fraudlabspro_status\u003e\n\t\u003cfraudlabspro_id\u003eNA\u003c/fraudlabspro_id\u003e\n\t\u003cfraudlabspro_rules\u003e\u003c/fraudlabspro_rules\u003e\n\t\u003cfraudlabspro_version\u003e1.5.1\u003c/fraudlabspro_version\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\t\u003cfraudlabspro_credits\u003e0\u003c/fraudlabspro_credits\u003e\n\t\u003cdevice_id\u003eNA\u003c/device_id\u003e\n\u003c/response\u003e",
+      "responseReceivedAt": "Apr 11, 2024, 3:46:29 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 3:46:28 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

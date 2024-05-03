@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "GET-/v1/email/free-20240411160805742",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.mailboxvalidator.com/v1/email/free?email\u003dgb@live.com",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:08:05 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json; charset\u003dutf-8\nserver: nginx\ndate: Thu, 11 Apr 2024 20:08:05 GMT\nx-frame-options: DENY\nx-xss-protection: 1; mode\u003dblock\nx-content-type-options: nosniff\nreferrer-policy: no-referrer-when-downgrade\ncontent-security-policy: default-src * data: \u0027unsafe-eval\u0027 \u0027unsafe-inline\u0027;frame-ancestors \u0027self\u0027;\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\npermissions-policy: accelerometer\u003d(), camera\u003d(), geolocation\u003d(), gyroscope\u003d(), magnetometer\u003d(), microphone\u003d(), payment\u003d(), usb\u003d(), interest-cohort\u003d()\nx-cache: Hit from cloudfront\nvia: 1.1 a44cf9ed8a499212c53e0b8f57aa31f4.cloudfront.net (CloudFront)\nx-amz-cf-pop: YTO50-P1\nx-amz-cf-id: U_Jrg4Y_Da2JAiAEWtfLlQz8-FwQdq_vmOgFJvmRSuj04hskpqPMdA\u003d\u003d\n",
+      "responseBody": "{\"email_address\":\"\",\"is_free\":\"\",\"credits_available\":\"\",\"error_code\":\"100\",\"error_message\":\"Missing parameter.\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:08:05 PM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:08:05 PM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

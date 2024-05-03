@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "productsUsingGET-20240411164600792",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://www.klarna.com/us/shopping/public/openai/v0/products?q\u003dcorrupt",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:46:02 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:46:03 GMT\nvary: Accept-Encoding\nx-cache: Miss from cloudfront\nvia: 1.1 e2bc53c67d7a4b6beae25c798d638b10.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-P2\nx-amz-cf-id: QtOa2SstXRBrAGpnhYnxQclRHI1GbNwUQgbLYmlWuy7XzqxPssYRsA\u003d\u003d\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\n",
+      "responseBody": "{\"products\":[{\"name\":\"Urban Decay 24/7 Glide-On Eye Pencil Corrupt\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl252/3685328/Cosmetics/Urban-Decay-24-7-Glide-On-Eye-Pencil-Corrupt/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$23.00\",\"attributes\":[]},{\"name\":\"Everythangs Corrupt (CD)\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl803/3204405863/Music/Everythangs-Corrupt-%28CD%29/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$8.67\",\"attributes\":[]},{\"name\":\"Ordinary Corrupt Human Love ()\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl803/3237628765/Music/Ordinary-Corrupt-Human-Love-%28%29/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$14.68\",\"attributes\":[]},{\"name\":\"Infiltrate \u0026 Corrupt Various (CD)\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl803/3228705981/Music/Infiltrate-Corrupt-Various-%28CD%29/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$11.12\",\"attributes\":[]},{\"name\":\"Everythangs Corrupt\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl803/3249706065/Music/Everythangs-Corrupt/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$25.89\",\"attributes\":[]}]}",
+      "responseReceivedAt": "Apr 11, 2024, 4:46:03 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:46:00 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

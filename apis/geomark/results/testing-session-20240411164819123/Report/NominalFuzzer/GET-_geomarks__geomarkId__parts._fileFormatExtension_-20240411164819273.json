@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/parts.{fileFormatExtension}-20240411164819273",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/parts.shpz",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:20 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:20 GMT\nServer: Apache\ncontent-type: application/x-shp+zip\ncontent-length: 2090\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.shpz\nx-kong-upstream-latency: 15\nx-kong-proxy-latency: 0\nKeep-Alive: timeout\u003d5, max\u003d98\nConnection: Keep-Alive\n",
+      "responseBody": "PK\u0003\u0004\u0014\u0000\b\b\b\u0000\nn�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0027\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.dbf�Mo�0\u0018��v�i�.�N;!�85��@؍\u0011/�\u0004\u0004�S���-�\u0004V�J��e�E���H\u0016��8��\u0004����\u000b\u000f\u003d\u0027\u000f�ޞ\u0000\u0000\u001e�?\u001d\u00039�\u0000`���tÒd\u0012�{���Gt�Q\u001e\u0026\u003c��\u000f\u0012\u000f�3Hc\u0000����\u0012�\u0027^0v�����7\r\\,\u0011\u0001�̝�ڜ\u000e�\u0005�_�Z�4\u000eX��s��q�U��\u0004O:�\u001dwϷ���\u000e�y8fö�T\u003ci��\u0019\u0015%vhs}\\�����mQ�����v7\u0026Y\u001b�H�kjs\u0026�_#gQļ��m�Y\u0014��L\"��E��7�\u001c�6��҃J~�d��t:;��̮����\u0017˼�q[����tv]���y�Tq�Z\u0015�gUM���g�}:��R�����E�Hoo�g�\u001e���\u0011A\u003e����n\u0011܎�n�!BPG�y�)�,9G\u0006�\u0006\u0011Yc@Y�uY�o3\b��\u0026��MM�s:�,�\u0018��M���\u0005,\u0002M��ЋU\u000e�gY\u00055��i\u0015M�鸦A5\r�ij;軕��g\u0018��U\u0006Y�20F�Q�\n6�Y�\u001e~��!�,��~�\u0001V�\u00039W�*�n\u0027T�\u00185Ͷ��u\u0015\u0004!ѵj\u000f�8��\u001a`���U��8���PK\u0007\b\u00162`��\u0001\u0000\u0000c\t\u0000\u0000PK\u0003\u0004\u0014\u0000\b\b\b\u0000\nn�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0027\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.cpg\u000b\rqӵ\u0000\u0000PK\u0007\bP\u003c�\u000e\u0007\u0000\u0000\u0000\u0005\u0000\u0000\u0000PK\u0003\u0004\u0014\u0000\b\b\b\u0000\nn�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0027\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.shpc`P�b�\n\u0018�^030�\u0002YJ���I�\u0027\u001e��_n����R\u001dg��\r1\u0007^�������\u0003v���\u0001q\u0001�YR�\u0027���c�\u0005R�\r�\u0004S��-?��+_�}m\u000fv���������zw���A�T�\u0004υqp�Ws�K�ލ; \u0018�̙����lY�]Dd�����\t�:�\u000e\u001f$;/p|�?�k�YHO�����[W\u0013߄\u0003ŷ���6y9\\�Q����p p��P?o\u0007��Z��$\u001c\u0010޽m{���\u0003���Nf\u0002�\b�?/N�[waI\nG��[�\u003d\u001d����e�L8�t��]yeo�?9����}�^:�鮗C@\u0018Ox�l���ms�?f\u0027\u001c�s7J�0���]��ڔ��\u0003�\u001d/�4�z��~�k,�H�ˡ�����I\b���\\ٝp@~�O�\u001e^\u000e��\u0001��\f��o�e��x\u0012�q-�~��葸\u0003ҭ*���\u003dQ�\u0007��^h���\u0018O\u0007ݗ\u001a웿����Z�8R\u001a\u0014���W.n\u0001O�O\u001b\u0002�gq�\u001f�q�畍�\u003c\u001c�,S\u0012\u003d� �@�39�}�Hv\t(�����p\"Ѡ��]\u001c�-��濙��\u000f\b\u001eߵ����aQ�#7��\u0003G^�bݽ���\u000033����\u0003}vϘ�x\u003d\u001d��\u0007\u0000PK\u0007\b�\u000e��\f\u0002\u0000\u0000�\u0002\u0000\u0000PK\u0003\u0004\u0014\u0000\b\b\b\u0000\nn�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0027\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.shxc`P�b�\u000e�^030�\u0002\u0019J���I�\u0027\u001e��_n����R\u001dg��\r1\u0007^�������\u0003\u000e���\b�\u000b�x\u0019\u0010G0002��\u0000PK\u0007\bhVc�D\u0000\u0000\u0000|\u0000\u0000\u0000PK\u0003\u0004\u0014\u0000\b\b\b\u0000\nn�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0027\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.prjsw�ww\u000e�V\u0002\u0012�����\u0016\u0026J:.�!���J.HB�\u0001\u001e�A��.�J\b13cs\u000bCcs\u003d\u0003\u001d#K\u000b\u003d#Ss##cS3��X�� O_W�\t�E��y��\u0019J:\u0006z\u0006�:�~�!@sSӁ�`!Cs\u0013Sc#K#SCKK\u0013c�V\u0000PK\u0007\bUC�y\u0000\u0000\u0000�\u0000\u0000\u0000PK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\nn�X\u00162`��\u0001\u0000\u0000c\t\u0000\u0000\u0027\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.dbfPK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\nn�XP\u003c�\u000e\u0007\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0027\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000G\u0002\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.cpgPK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\nn�X�\u000e��\f\u0002\u0000\u0000�\u0002\u0000\u0000\u0027\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0002\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.shpPK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\nn�XhVc�D\u0000\u0000\u0000|\u0000\u0000\u0000\u0027\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0005\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.shxPK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\nn�XUC�y\u0000\u0000\u0000�\u0000\u0000\u0000\u0027\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0005\u0000\u0000gm-abcdefghijklmnopqrstuv0bcislands.prjPK\u0005\u0006\u0000\u0000\u0000\u0000\u0005\u0000\u0005\u0000�\u0001\u0000\u0000k\u0006\u0000\u0000\u0000\u0000",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:20 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:19 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

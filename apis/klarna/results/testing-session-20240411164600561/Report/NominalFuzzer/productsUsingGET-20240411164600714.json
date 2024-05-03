@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "productsUsingGET-20240411164600714",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://www.klarna.com/us/shopping/public/openai/v0/products?q\u003dsitzbath",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:46:01 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:46:01 GMT\nvary: Accept-Encoding\nx-cache: Miss from cloudfront\nvia: 1.1 e2bc53c67d7a4b6beae25c798d638b10.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-P2\nx-amz-cf-id: 3a-de6sZsQd7dm71BatCaVUSX6iC9wJq1F-tgIgXOSaK4XQ2LkSJMg\u003d\u003d\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\n",
+      "responseBody": "{\"products\":[{\"name\":\"Earth Mama Organic Herbal Sitz Bath 6 Pads\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl350/3203056013/Baby-care/Earth-Mama-Organic-Herbal-Sitz-Bath-6-Pads/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$8.99\",\"attributes\":[]},{\"name\":\"Sitz Bath Salts for Postpartum Recovery\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl1180/3209865589/Medicines/Sitz-Bath-Salts-for-Postpartum-Recovery/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$11.47\",\"attributes\":[]},{\"name\":\"Motherlove Sitz Bath Spray 2 bottle\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl341/3203315404/Toiletries/Motherlove-Sitz-Bath-Spray-2-bottle/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$11.99\",\"attributes\":[]},{\"name\":\"Pure Body Naturals Sitz Bath Salt for Postpartum Hemorrhoid 10\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl341/3204737735/Toiletries/Pure-Body-Naturals-Sitz-Bath-Salt-for-Postpartum-Hemorrhoid-10/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$13.95\",\"attributes\":[]},{\"name\":\"Drive Medical Sitz Bath 1.0 ea\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl350/3203081601/Baby-care/Drive-Medical-Sitz-Bath-1.0-ea/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$17.63\",\"attributes\":[]}]}",
+      "responseReceivedAt": "Apr 11, 2024, 4:46:01 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:46:00 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

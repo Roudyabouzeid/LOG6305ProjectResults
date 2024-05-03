@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "POST-/v1/order/feedback-20240411154625378",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://api.fraudlabspro.com/v1/order/feedback?format\u003djson\u0026action\u003dAPPROVE\u0026id\u003dIsaac\u0026key\u003dIS07%200478%207670%204028%200152%200159%2082",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 11, 2024, 3:46:27 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json; charset\u003dutf-8\ndate: Thu, 11 Apr 2024 19:46:27 GMT\nserver: nginx\nx-frame-options: DENY\nx-xss-protection: 1; mode\u003dblock\nx-content-type-options: nosniff\nreferrer-policy: no-referrer-when-downgrade\ncontent-security-policy: default-src * data: \u0027unsafe-eval\u0027 \u0027unsafe-inline\u0027;frame-ancestors \u0027self\u0027;\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\nx-cache: Miss from cloudfront\nvia: 1.1 b6e7d60d529540ac03c94ffa742017e4.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-C1\nx-amz-cf-id: Kk_7Y7axOKjUFEr-nUbL-Wd7Fe_G6ypaKBDz8ImJcQHtacZ2NzFCYg\u003d\u003d\n",
+      "responseBody": "{\"fraudlabspro_error_code\":\"101\",\"fraudlabspro_message\":\"INVALID API KEY\"}",
+      "responseReceivedAt": "Apr 11, 2024, 3:46:27 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 3:46:25 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

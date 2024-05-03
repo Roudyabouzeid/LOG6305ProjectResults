@@ -1,0 +1,1 @@
+{"documented":{"POST /api/v1/itemusages":["401"],"POST /api/v1/signinattempts":["401"],"GET /api/auth/introspect":["401","200"]},"documentedTested":{"POST /api/v1/itemusages":["401"],"POST /api/v1/signinattempts":["401"],"GET /api/auth/introspect":["401"]},"notDocumentedTested":{},"notTested":{"GET /api/auth/introspect":["200"]}}

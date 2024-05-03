@@ -1,0 +1,16 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "POST-/geomarks/new-20240411164842276",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/new",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "failureRedirectUrl\u003dhttp%3A%2F%2Fy.gpkstbkxt.me%2F",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:42 PM",
+  "testResults": {},
+  "tags": []
+}

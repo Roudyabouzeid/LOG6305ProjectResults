@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/boundingBox.{fileFormatExtension}-20240411164834052",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/boundingBox.wkt",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:34 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:34 GMT\nServer: Apache\ncontent-type: text/x-wkt;charset\u003dUTF-8\ncontent-length: 129\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.wkt\nx-kong-upstream-latency: 5\nx-kong-proxy-latency: 0\nKeep-Alive: timeout\u003d5, max\u003d82\nConnection: Keep-Alive\n",
+      "responseBody": "SRID\u003d4326;POLYGON((-138.971885 48.240116,-114.01435 48.240116,-114.01435 59.990216,-138.971885 59.990216,-138.971885 48.240116))\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:34 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:34 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

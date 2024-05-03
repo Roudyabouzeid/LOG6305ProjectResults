@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/parts.{fileFormatExtension}-20240411164819263",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/parts.xml",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:19 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:20 GMT\nServer: Apache\ncontent-type: text/xml;charset\u003dUTF-8\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.xml\nx-kong-upstream-latency: 123\nx-kong-proxy-latency: 1\nvary: Accept-Encoding\nKeep-Alive: timeout\u003d5, max\u003d100\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003citems\u003e\n\u003cgeomark:GeomarkPart xmlns:geomark\u003d\"https://gov.bc.ca/geomark\"\u003e\n\u003cid\u003e#0 of gm-abcdefghijklmnopqrstuv0bcislands\u003c/id\u003e\n\u003curl\u003ehttps://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\u003c/url\u003e\n\u003cgeometryType\u003ePolygon\u003c/geometryType\u003e\n\u003cpartIndex\u003e0\u003c/partIndex\u003e\n\u003cnumPolygons\u003e1\u003c/numPolygons\u003e\n\u003cnumParts\u003e1\u003c/numParts\u003e\n\u003ccreateDate\u003e2011-05-12\u003c/createDate\u003e\n\u003cminX\u003e-138.971885\u003c/minX\u003e\n\u003cminY\u003e48.242418\u003c/minY\u003e\n\u003cmaxX\u003e-114.01435\u003c/maxX\u003e\n\u003cmaxY\u003e59.990216\u003c/maxY\u003e\n\u003ccentroidX\u003e-124.879924\u003c/centroidX\u003e\n\u003ccentroidY\u003e54.916609\u003c/centroidY\u003e\n\u003cnumVertices\u003e11\u003c/numVertices\u003e\n\u003clength\u003e4732734.645762993\u003c/length\u003e\n\u003carea\u003e1211994699457\u003c/area\u003e\n\u003cisValid\u003etrue\u003c/isValid\u003e\n\u003cisSimple\u003etrue\u003c/isSimple\u003e\n\u003cisRobust\u003etrue\u003c/isRobust\u003e\n\u003cminimumClearance\u003e94071.344\u003c/minimumClearance\u003e\n\u003cgeometry\u003eSRID\u003d4326;POLYGON((-138.971885 59.834881,-132.646749 54.549674,-131.191845 54.61199,-130.412631 53.393019,-127.781788 51.074595,-125.396011 50.34544,-123.458319 49.276704,-122.520115 48.242418,-114.01435 49.021879,-120.071089 59.990216,-138.971885 59.834881))\u003c/geometry\u003e\n\u003c/geomark:GeomarkPart\u003e\n\u003cgeomark:GeomarkPart\u003e\n\u003cid\u003e#1 of gm-abcdefghijklmnopqrstuv0bcislands\u003c/id\u003e\n\u003curl\u003ehttps://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\u003c/url\u003e\n\u003cgeometryType\u003ePolygon\u003c/geometryType\u003e\n\u003cpartIndex\u003e1\u003c/partIndex\u003e\n\u003cnumPolygons\u003e1\u003c/numPolygons\u003e\n\u003cnumParts\u003e1\u003c/numParts\u003e\n\u003ccreateDate\u003e2011-05-12\u003c/createDate\u003e\n\u003cminX\u003e-133.150451\u003c/minX\u003e\n\u003cminY\u003e51.998853\u003c/minY\u003e\n\u003cmaxX\u003e-130.781531\u003c/maxX\u003e\n\u003cmaxY\u003e54.27441\u003c/maxY\u003e\n\u003ccentroidX\u003e-132.05668\u003c/centroidX\u003e\n\u003ccentroidY\u003e53.246655\u003c/centroidY\u003e\n\u003cnumVertices\u003e8\u003c/numVertices\u003e\n\u003clength\u003e664727.6037694025\u003c/length\u003e\n\u003carea\u003e19496221667\u003c/area\u003e\n\u003cisValid\u003etrue\u003c/isValid\u003e\n\u003cisSimple\u003etrue\u003c/isSimple\u003e\n\u003cisRobust\u003etrue\u003c/isRobust\u003e\n\u003cminimumClearance\u003e26939.839\u003c/minimumClearance\u003e\n\u003cgeometry\u003eSRID\u003d4326;POLYGON((-133.150451 53.728594,-132.372295 52.565245,-131.081532 51.998853,-130.781531 52.155337,-131.637267 53.105476,-131.373205 54.029393,-132.860271 54.27441,-133.150451 53.728594))\u003c/geometry\u003e\n\u003c/geomark:GeomarkPart\u003e\n\u003cgeomark:GeomarkPart\u003e\n\u003cid\u003e#2 of gm-abcdefghijklmnopqrstuv0bcislands\u003c/id\u003e\n\u003curl\u003ehttps://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\u003c/url\u003e\n\u003cgeometryType\u003ePolygon\u003c/geometryType\u003e\n\u003cpartIndex\u003e2\u003c/partIndex\u003e\n\u003cnumPolygons\u003e1\u003c/numPolygons\u003e\n\u003cnumParts\u003e1\u003c/numParts\u003e\n\u003ccreateDate\u003e2011-05-12\u003c/createDate\u003e\n\u003cminX\u003e-128.381685\u003c/minX\u003e\n\u003cminY\u003e48.240116\u003c/minY\u003e\n\u003cmaxX\u003e-123.063842\u003c/maxX\u003e\n\u003cmaxY\u003e50.902182\u003c/maxY\u003e\n\u003ccentroidX\u003e-125.744188\u003c/centroidX\u003e\n\u003ccentroidY\u003e49.553483\u003c/centroidY\u003e\n\u003cnumVertices\u003e11\u003c/numVertices\u003e\n\u003clength\u003e1004537.6721876118\u003c/length\u003e\n\u003carea\u003e40708982640\u003c/area\u003e\n\u003cisValid\u003etrue\u003c/isValid\u003e\n\u003cisSimple\u003etrue\u003c/isSimple\u003e\n\u003cisRobust\u003etrue\u003c/isRobust\u003e\n\u003cminimumClearance\u003e41995.195\u003c/minimumClearance\u003e\n\u003cgeometry\u003eSRID\u003d4326;POLYGON((-128.381685 50.724647,-127.798769 50.101624,-126.563052 49.32602,-125.031493 48.5512,-123.726898 48.240116,-123.063842 48.340719,-123.51209 48.904238,-124.165675 49.146052,-125.288438 50.125337,-127.854677 50.902182,-128.381685 50.724647))\u003c/geometry\u003e\n\u003c/geomark:GeomarkPart\u003e\n\u003c/items\u003e",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:20 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:19 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

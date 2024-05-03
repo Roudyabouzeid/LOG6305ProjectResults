@@ -1,0 +1,1 @@
+{"documented":{"POST /balanceTransfer":["200"]},"documentedTested":{},"notDocumentedTested":{"POST /balanceTransfer":["401"]},"notTested":{"POST /balanceTransfer":["200"]}}

@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "productsUsingGET-20240411164600722",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://www.klarna.com/us/shopping/public/openai/v0/products?q\u003dopticon",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:46:01 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:46:01 GMT\nvary: Accept-Encoding\nx-cache: Miss from cloudfront\nvia: 1.1 e2bc53c67d7a4b6beae25c798d638b10.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-P2\nx-amz-cf-id: k_y5mcS_pM1iv_3JUQ9wYv9QH-8JTxNoYiHHmN5T3fPrFYvjrKOF6w\u003d\u003d\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\n",
+      "responseBody": "{\"products\":[{\"name\":\"Opticon OPN2001 Handhållen steckkodsläsare 1D laser Svart\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl10032/3204377892/Barcode-Scanners/Opticon-OPN2001-Handhaallen-steckkodslaesare-1D-laser-Svart/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$111.43\",\"attributes\":[]},{\"name\":\"Barcode Scanner Battery for Opticon 2540000020 PHL-2700 PHL-2700 RFID 1500mAh\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl528/3204259271/Batteries-Chargers/Barcode-Scanner-Battery-for-Opticon-2540000020-PHL-2700-PHL-2700-RFID-1500mAh/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$26.24\",\"attributes\":[\"Color:Gray\"]},{\"name\":\"Dali Opticon Vokal MK2\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl267/3200015795/Speakers/Dali-Opticon-Vokal-MK2/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$1200.00\",\"attributes\":[\"Color:White,Black,Natural\"]},{\"name\":\"Dali Opticon LCR MK2\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl267/3200015150/Speakers/Dali-Opticon-LCR-MK2/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$1100.00\",\"attributes\":[\"Color:White,Black,Natural\"]},{\"name\":\"Dali Opticon 1 MK2\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl267/3200015737/Speakers/Dali-Opticon-1-MK2/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$1200.00\",\"attributes\":[\"Color:White,Black,Natural\"]}]}",
+      "responseReceivedAt": "Apr 11, 2024, 4:46:01 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:46:00 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

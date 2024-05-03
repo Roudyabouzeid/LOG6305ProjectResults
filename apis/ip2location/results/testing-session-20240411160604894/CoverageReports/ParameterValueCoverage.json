@@ -1,0 +1,1 @@
+{"documented":{"GET /":{"format (Format, QUERY)":["xml","json"]}},"documentedTested":{"GET /":{"format (Format, QUERY)":["xml","json"]}},"notDocumentedTested":{"GET /":{"format (Format, QUERY)":["null","Elbl criminological","U H a","857eddae-a243-4819-89d6-4251bca34dbf"]}},"notTested":{}}

@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "POST-/geomarks/new-20240411164842288",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/new",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "srid\u003d-1008928086",
+      "requestSentAt": "Apr 11, 2024, 4:48:43 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:43 GMT\nServer: Apache\ncontent-type: application/json;charset\u003dUTF-8\naccess-control-allow-origin: *\nx-kong-upstream-latency: 0\nx-kong-proxy-latency: 1\nvary: Accept-Encoding\nKeep-Alive: timeout\u003d5, max\u003d96\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "{\n  \"srid\":[\n    \"-1008928086\"\n  ],\n  \"format_Error\":\"File format\u003dnull not supported\",\n  \"error\":\"File format\u003dnull not supported\"\n}\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:43 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:42 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "post-getCostEstimate-20240411163503818",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://pal-test.adyen.com/pal/servlet/BinLookup/v54/getCostEstimate",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "{\"amount\": {\"currency\": \"Vee\", \"value\": 7397915207540484964}, \"merchantAccount\": \"lpgbBCF1PAXtdu4qiA-CwS8ipAYxwhiAFvzgmVBLMU12_ybpP7eW6qaRnmfc_FwJzE2uWdHxtg1plBp8eGe-0ZimXuwn\", \"merchantDetails\": {\"mcc\": \"codfishes douc Nyx Q \"}, \"recurring\": {\"recurringExpiry\": \"2008/11/02 03:49:42\", \"tokenService\": \"lowmost\"}, \"shopperInteraction\": \"Ecommerce\"}",
+      "requestSentAt": "Apr 11, 2024, 4:35:05 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 401
+      },
+      "responseHeaders": "traceparent: 00-41a1d2e70cca0324afc959b1c5f23853-977a14d1cf919171-01\nset-cookie: ██\nwww-authenticate: BASIC realm\u003d\"Adyen PAL Service Authentication\"\ncontent-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:35:04 GMT\n",
+      "responseBody": "{\"status\":401,\"errorCode\":\"000\",\"message\":\"HTTP Status Response - Unauthorized\",\"errorType\":\"security\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:35:05 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:35:03 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

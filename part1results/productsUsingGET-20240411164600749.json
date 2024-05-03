@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "productsUsingGET-20240411164600749",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://www.klarna.com/us/shopping/public/openai/v0/products?q\u003dscends",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:46:02 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:46:02 GMT\nvary: Accept-Encoding\nx-cache: Miss from cloudfront\nvia: 1.1 e2bc53c67d7a4b6beae25c798d638b10.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-P2\nx-amz-cf-id: f_bu_uYa98IHEMDPTK0pZhAJPm1wtHw9u269AXQE2hMFi99Xy2yWxw\u003d\u003d\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\n",
+      "responseBody": "{\"products\":[]}",
+      "responseReceivedAt": "Apr 11, 2024, 4:46:02 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:46:00 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

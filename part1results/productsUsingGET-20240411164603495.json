@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "productsUsingGET-20240411164603495",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://www.klarna.com/us/shopping/public/openai/v0/products?q\u003d%2B2625%2030764970098\u0026budget\u003dsociableness",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:46:03 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:46:03 GMT\nvary: Accept-Encoding\nx-cache: Miss from cloudfront\nvia: 1.1 e2bc53c67d7a4b6beae25c798d638b10.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-P2\nx-amz-cf-id: F-Qmy2TEZywqx4pnk_XT6OcbPesAGcSwkPtgjePHrWigSqwfKOrrtA\u003d\u003d\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\n",
+      "responseBody": "{\"products\":[{\"name\":\"Milwaukee M18 2625-20 Solo\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl1260/3202768284/Power-Saws/Milwaukee-M18-2625-20-Solo/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$72.99\",\"attributes\":[]},{\"name\":\"Vollrath Wear-Ever Tapered Sauce 7-1/2625\\\" Bottom Diameter, 4-1/2 with lid\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl1266/3203778927/Cookware/Vollrath-Wear-Ever-Tapered-Sauce-7-1-2625-Bottom-Diameter-4-1-2-with-lid/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$39.49\",\"attributes\":[]},{\"name\":\"Whale Brusehovd.t.16030-2625/58\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl1390/3203412984/Shower-Sets/Whale-Brusehovd.t.16030-2625-58/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$61.18\",\"attributes\":[]},{\"name\":\"HP 65 (Black)\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl187/3201160539/Ink-Toners/HP-65-%28Black%29/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$14.31\",\"attributes\":[\"Color:Black\"]},{\"name\":\"LA CROSSE TECHNOLOGY 404-2625 10 Linwood Quartz Wall Clock\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl459/3205705749/Interior-Details/LA-CROSSE-TECHNOLOGY-404-2625-10-Linwood-Quartz-Wall-Clock/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$26.46\",\"attributes\":[\"Color:Brown\",\"Material:Plastic\"]}]}",
+      "responseReceivedAt": "Apr 11, 2024, 4:46:03 PM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:46:03 PM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

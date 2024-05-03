@@ -1,0 +1,9 @@
+digraph G {
+  1 [ label="GET /providers.json" ];
+  2 [ label="GET /{provider}/services.json" ];
+  3 [ label="GET /list.json" ];
+  4 [ label="GET /specs/{provider}/{service}/{api}.json" ];
+  5 [ label="GET /specs/{provider}/{api}.json" ];
+  6 [ label="GET /{provider}.json" ];
+  7 [ label="GET /metrics.json" ];
+}

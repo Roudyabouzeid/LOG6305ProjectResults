@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "post-balanceTransfer-20240411163214068",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://pal-test.adyen.com/pal/servlet/BalanceControl/v1/balanceTransfer",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "{\"amount\": {\"currency\": \"LBjrrc5ZONSC6j4NrB5FhVBWOz_YzL41nqzdNJEIgzZ14w6SikesWV05Hs7pF3Uh5wzt1g\u003d\u003d\", \"value\": -5390323665693096769}, \"description\": \"+7800 50213839021\", \"fromMerchant\": \"cunit\", \"toMerchant\": \"benighted\", \"type\": \"MSRURNahkkYKDgYETwFy5Cy6s-5CDgpaPKWpYvgmnDKyBegZZ6mr-TYdYHKAQiwd_g\u003d\u003d\"}",
+      "requestSentAt": "Apr 11, 2024, 4:32:14 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 401
+      },
+      "responseHeaders": "traceparent: 00-7cafa326bd9d9e6fe2e4f5bc3094f17b-76749671df93efb6-01\nset-cookie: ██\nwww-authenticate: BASIC realm\u003d\"Adyen PAL Service Authentication\"\ncontent-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:32:14 GMT\n",
+      "responseBody": "{\"status\":401,\"errorCode\":\"000\",\"message\":\"HTTP Status Response - Unauthorized\",\"errorType\":\"security\"}",
+      "responseReceivedAt": "Apr 11, 2024, 4:32:14 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:32:14 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

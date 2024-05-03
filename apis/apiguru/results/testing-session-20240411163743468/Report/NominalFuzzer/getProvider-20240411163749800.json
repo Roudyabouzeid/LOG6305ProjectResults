@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getProvider-20240411163749800",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.apis.guru/v2/seldon.local.json",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:37:50 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "server: GitHub.com\ncontent-type: application/json; charset\u003dutf-8\nx-origin-cache: HIT\nlast-modified: Sat, 22 Apr 2023 00:59:21 GMT\naccess-control-allow-origin: *\netag: W/\"64433169-f0f\"\nexpires: Thu, 11 Apr 2024 20:47:50 GMT\ncache-control: max-age\u003d600\nx-proxy-cache: MISS\nx-github-request-id: 5758:14AC42:AC692:EBAD8:66184A1D\naccept-ranges: bytes\nage: 0\ndate: Thu, 11 Apr 2024 20:37:50 GMT\nvia: 1.1 varnish\nx-served-by: cache-yul1970023-YUL\nx-cache: MISS\nx-cache-hits: 0\nx-timer: S1712867870.069278,VS0,VE24\nvary: Accept-Encoding\nx-fastly-request-id: 31baf6a3ae824b69aa72b7fc8cdc44cf5496ce8d\n",
+      "responseBody": "{\n  \"apis\": {\n    \"seldon.local:core\": {\n      \"added\": \"2021-06-18T13:57:32.889Z\",\n      \"info\": {\n        \"contact\": {\n          \"name\": \"Seldon Core\",\n          \"url\": \"https://github.com/SeldonIO/seldon-core\"\n        },\n        \"title\": \"Seldon External API\",\n        \"version\": \"0.1\",\n        \"x-apisguru-categories\": [\n          \"machine_learning\"\n        ],\n        \"x-origin\": [\n          {\n            \"format\": \"openapi\",\n            \"url\": \"https://raw.githubusercontent.com/SeldonIO/seldon-core/master/openapi/wrapper.oas3.json\",\n            \"version\": \"3.0\"\n          }\n        ],\n        \"x-providerName\": \"seldon.local\",\n        \"x-serviceName\": \"wrapper\",\n        \"x-logo\": {\n          \"url\": \"https://api.apis.guru/v2/cache/logo/https_apis.guru_assets_images_no-logo.svg\"\n        }\n      },\n      \"externalDocs\": {\n        \"description\": \"Seldon Core Documentation\",\n        \"url\": \"https://github.com/SeldonIO/seldon-core\"\n      },\n      \"updated\": \"2021-06-21T12:16:53.715Z\",\n      \"swaggerUrl\": \"https://api.apis.guru/v2/specs/seldon.local/core/0.1/openapi.json\",\n      \"swaggerYamlUrl\": \"https://api.apis.guru/v2/specs/seldon.local/core/0.1/openapi.yaml\",\n      \"openapiVer\": \"3.0.0\",\n      \"link\": \"https://api.apis.guru/v2/specs/seldon.local:core/0.1.json\"\n    },\n    \"seldon.local:engine\": {\n      \"added\": \"2021-06-14T10:29:23.711Z\",\n      \"info\": {\n        \"contact\": {\n          \"name\": \"Seldon Core\",\n          \"url\": \"https://github.com/SeldonIO/seldon-core\"\n        },\n        \"title\": \"Seldon External API\",\n        \"version\": \"0.1\",\n        \"x-apisguru-categories\": [\n          \"machine_learning\"\n        ],\n        \"x-origin\": [\n          {\n            \"format\": \"openapi\",\n            \"url\": \"https://raw.githubusercontent.com/SeldonIO/seldon-core/master/openapi/engine.oas3.json\",\n            \"version\": \"3.0\"\n          }\n        ],\n        \"x-providerName\": \"seldon.local\",\n        \"x-serviceName\": \"engine\",\n        \"x-logo\": {\n          \"url\": \"https://api.apis.guru/v2/cache/logo/https_apis.guru_assets_images_no-logo.svg\"\n        }\n      },\n      \"externalDocs\": {\n        \"description\": \"Seldon Core Documentation\",\n        \"url\": \"https://github.com/SeldonIO/seldon-core\"\n      },\n      \"updated\": \"2023-03-06T07:12:59.965Z\",\n      \"swaggerUrl\": \"https://api.apis.guru/v2/specs/seldon.local/engine/0.1/openapi.json\",\n      \"swaggerYamlUrl\": \"https://api.apis.guru/v2/specs/seldon.local/engine/0.1/openapi.yaml\",\n      \"openapiVer\": \"3.0.0\",\n      \"link\": \"https://api.apis.guru/v2/specs/seldon.local:engine/0.1.json\"\n    },\n    \"seldon.local:wrapper\": {\n      \"added\": \"2021-06-14T10:28:10.311Z\",\n      \"info\": {\n        \"contact\": {\n          \"name\": \"Seldon Core\",\n          \"url\": \"https://github.com/SeldonIO/seldon-core\"\n        },\n        \"title\": \"Seldon External API\",\n        \"version\": \"0.1\",\n        \"x-apisguru-categories\": [\n          \"machine_learning\"\n        ],\n        \"x-origin\": [\n          {\n            \"format\": \"openapi\",\n            \"url\": \"https://raw.githubusercontent.com/SeldonIO/seldon-core/master/openapi/wrapper.oas3.json\",\n            \"version\": \"3.0\"\n          }\n        ],\n        \"x-providerName\": \"seldon.local\",\n        \"x-serviceName\": \"wrapper\",\n        \"x-logo\": {\n          \"url\": \"https://api.apis.guru/v2/cache/logo/https_apis.guru_assets_images_no-logo.svg\"\n        }\n      },\n      \"externalDocs\": {\n        \"description\": \"Seldon Core Documentation\",\n        \"url\": \"https://github.com/SeldonIO/seldon-core\"\n      },\n      \"updated\": \"2021-06-21T12:16:53.715Z\",\n      \"swaggerUrl\": \"https://api.apis.guru/v2/specs/seldon.local/wrapper/0.1/openapi.json\",\n      \"swaggerYamlUrl\": \"https://api.apis.guru/v2/specs/seldon.local/wrapper/0.1/openapi.yaml\",\n      \"openapiVer\": \"3.0.0\",\n      \"link\": \"https://api.apis.guru/v2/specs/seldon.local:wrapper/0.1.json\"\n    }\n  }\n}",
+      "responseReceivedAt": "Apr 11, 2024, 4:37:50 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:37:49 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/feature.{fileFormatExtension}-20240411164827788",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/feature.json?srid\u003d26911",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:28 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:28 GMT\nServer: Apache\ncontent-type: application/json;charset\u003dUTF-8\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.json\nx-kong-upstream-latency: 10\nx-kong-proxy-latency: 0\nvary: Accept-Encoding\nKeep-Alive: timeout\u003d5, max\u003d29\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "{\"items\": [\n{\n\"id\":\"gm-abcdefghijklmnopqrstuv0bcislands\",\n\"url\":\"https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\",\n\"geometryType\":\"MultiPolygon\",\n\"numPolygons\":3,\n\"numParts\":3,\n\"createDate\":\"2011-05-12\",\n\"minX\":-716149.9,\n\"minY\":5357991.254,\n\"maxX\":718268.539,\n\"maxY\":6838416.266,\n\"centroidX\":15570.932,\n\"centroidY\":6091667.967,\n\"numVertices\":30,\n\"length\":6431828.87432292,\n\"area\":1282912055111,\n\"isValid\":true,\n\"isSimple\":true,\n\"isRobust\":true,\n\"minimumClearance\":13990.118,\n\"geometry\":\"SRID\u003d26911;MULTIPOLYGON(((-716149.9 6838416.266,-507829.169 6157963.319,-413404.949 6144634.878,-389516.549 6000230.261,-254381.301 5713633.46,-96993.575 5610826.112,30393.29 5478314.347,90228.751 5357991.254,718268.539 5434183.199,328692.205 6654298.577,-716149.9 6838416.266)),((-561134.462 6075276.454,-538580.339 5935708.525,-464291.944 5855122.064,-440509.782 5868400.892,-476842.017 5984737.983,-438344.607 6082899.562,-528444.303 6130868.422,-561134.462 6075276.454)),((-302289.689 5681260.682,-271452.912 5606007.417,-194393.316 5507839.881,-92459.923 5408787.569,667.123 5364901.853,50749.118 5371963.326,22917.236 5437283.682,-22383.195 5468459.885,-92090.078 5585538.419,-262313.446 5695291.089,-302289.689 5681260.682)))\"\n}\n]}\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:29 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:27 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

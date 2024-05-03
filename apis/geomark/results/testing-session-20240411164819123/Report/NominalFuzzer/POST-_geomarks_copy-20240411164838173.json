@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "POST-/geomarks/copy-20240411164838173",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/copy?geomarkUrl\u003dhttp://iueqp.onfshwqt.gov/",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 11, 2024, 4:48:41 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:41 GMT\nServer: Apache\ncontent-type: application/json;charset\u003dUTF-8\naccess-control-allow-origin: *\nx-kong-upstream-latency: 0\nx-kong-proxy-latency: 0\nvary: Accept-Encoding\nKeep-Alive: timeout\u003d5, max\u003d10\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "{\n  \"geomarkUrl\":[\n    \"http://iueqp.onfshwqt.gov/\"\n  ],\n  \"geomarkUrls_Error\":\"Only geomarks from the current server are supported: http://iueqp.onfshwqt.gov/\",\n  \"error\":\"Only geomarks from the current server are supported: http://iueqp.onfshwqt.gov/\"\n}\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:41 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:38 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

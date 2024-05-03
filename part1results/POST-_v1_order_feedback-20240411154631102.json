@@ -1,0 +1,31 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "POST-/v1/order/feedback-20240411154631102",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://api.fraudlabspro.com/v1/order/feedback?id\u003dformism\u0026key\u003dKenway",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 11, 2024, 3:46:31 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: text/xml;charset\u003dUTF-8\ndate: Thu, 11 Apr 2024 19:46:31 GMT\nserver: nginx\nx-frame-options: DENY\nx-xss-protection: 1; mode\u003dblock\nx-content-type-options: nosniff\nreferrer-policy: no-referrer-when-downgrade\ncontent-security-policy: default-src * data: \u0027unsafe-eval\u0027 \u0027unsafe-inline\u0027;frame-ancestors \u0027self\u0027;\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\nx-cache: Miss from cloudfront\nvia: 1.1 b6e7d60d529540ac03c94ffa742017e4.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-C1\nx-amz-cf-id: rDAfIWeCCQjrMFZJTaSR8NZ-O5RutBNKWxcGVyBnGmW5kgoHX3bzmg\u003d\u003d\n",
+      "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\u003c/response\u003e",
+      "responseReceivedAt": "Apr 11, 2024, 3:46:31 PM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 3:46:31 PM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

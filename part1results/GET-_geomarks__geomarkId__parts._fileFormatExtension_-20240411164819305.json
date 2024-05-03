@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/parts.{fileFormatExtension}-20240411164819305",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/parts.kmz",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:22 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:22 GMT\nServer: Apache\ncontent-type: application/vnd.google-earth.kmz\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.kmz\nx-kong-upstream-latency: 13\nx-kong-proxy-latency: 0\nKeep-Alive: timeout\u003d5, max\u003d86\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "PK\u0003\u0004\u0014\u0000\b\b\b\u0000\u000bn�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000doc.kml�YYo�F\u0010~ׯ\u0010\u0014 O�r\u0015�I[\u0004(� \u0017�GZZˬ)R%)����F�D��l�.�\u0004yH�\"��cf�o����E1\u003c�u�W��H0\u003e\u001a�rZ��r~8����\u0003?z\u003e\u0019����d�\u001c�N�v�C�|��U�X�󆕱M �H\u0026G\u0010~YMW�X�\u0018��\"N~��\"�O��(�d�j��b3��e\u000b���E�l�t�\u003e{Q���!�̆\u0027u\u003c����]�\\6l^���)�f�ru��/�n�M2_\u001c��\u0011Y:�u$;IF���U\u003d\\Tu\u001c�%���ܲ����4�Og���\u0026\"M��A�[U��H�)*��]���@H�tPB8紱\u001a��WH��zh4\u0013�*a�V���!��6H��j��d;\u001e�\u00271�\u0013���� m�7�� ��r\u001e\u0027�K˵K�˟�4�N�M�M#�\f���|���$M6��uUM{Q�\u000fu1�D\u0006��\"�\u0016\u001d\u0014�7��\u001d�1|xr��e\u003c�VE�\u0026[�����6��8{��\u0019�1\u001eC\n��Q\u003e��\u003eˊU�\u003c���x�`ˎ��x\u003c?��\u003c-\u0016e���n��\u0019?��M���\u0026M.\u00150��\u0016Wuљ�3���c2\u0014�����2v3xS\u0015\u0017�ܩ����\u0015��S�;\u0015����nө�{U�����:fmċ�Z$\u0017�\u001b\u0004�N�E^��)\u001d\b�Yp�{#���ݫ�G��\u003d�Zjἓ\\��t��k��f\\he��N������B�R\u0018+4�,��BM��|v͹�̻\u0000U.�u֛\u0007���A� ���\n��\u000b�\r�|?ƺͧ�Ļ�\\\u0000eړ�n;%���j�\fA���\u0010!\u003dWR�\u0010��?�v���Ǭ��}[��\u003d\u001a��Ų�{����VM��\n\"/_�\u0016/���:N{ނ�N0��Fi�JK��U\u001b럪U9��W\r�B^�����\u003c��\u001a�\u001a��ܑ\"c\u0004�W�{n��\u0000\r;~��\u001eBP�t\u0000\u000e�㨸\u0017cD��\u0001o���\u003el%\u0005\u0013Ax�a�!\u00045�Z:$.��z!�F�3\r�R�s�[\u0018UL\u0005�I�\u001b�{)(\u001ds���)�\u0011�nl�l\u0000hA\u0007�\u000f��F���E��\u0002��\bcñ�F�`�t�7��TL\u001b�\u0004��\u0018#�X\u0007F)�5�\u0007�]���P\t�\u0001���[��J�F�E$3f!�~M��1�1}�w�r\u0017l\u0018����\u001e\u003d�Ҥ�\u0004��3On�D�\u0005L��\u0015��1p��\u001aL?H%����H�bBYb\u00192xn�2��2p�ا/�d��$���+\"\u0019�iõ\u0011\u0002�I����2P�B�J�\u0003�\u000f`k��\u0019(���F����\u0006��,� \u001a\u001a�Nk\u001e\u0000�(�N|\u0006�\u0000\u0026pc-�F�\"\u0018�0\u0013�I(�Qk��\u001a����\u0006�d\u001a~/�a�\u0006$1˕�\u0000W���n\u0010\r`\r�\n��[�\u0019�\u0006E�\u0012�;�q3I\b��\u0026(\u000f�\u0010��\u001d�PN�`4�\u0000Q\u0005�\u0000��Fj�\u0005�\u0012���\fN�/��\u0012\u001d�\u001f�N��g\\O\u00142*�?��H\rw�wF-�[�\u0016@(mi�\u0002\u0003�\u0018�\u001cL�$\u0015h+�Z�e!���\u003c�D@+/��V�-\u0027�\u0014���v�۹�\u0011}�6��`\u000f��\u0003r\u0016�����s\u0027փ�\u0018l�\u0006�\"J\u0014\u001e\u0019�\r�^�/\u0014��w��֖o\b�g�\u000b�\n\u0002�\u000f\u0004��\u003e\u0001^�T�S3�\u0017УU�Vy-Q\u0013�C��\u0003��Q[�%�H)����/\u0014��\u001a�\u000b \u0013��\u001e��\u0003�\u0012P���QǸ���?�}��(�\n8���v�f\t�q\u001e\u003d7�J�w߅}}8�у\u001b4�w��G���\u0019Bͷ\u0003�Ӗ:C4����\u0007\u001c\r\u0010\u001e\b.���\u0014��\u0003}�2ޫ��\u0005�+n�\tп\u0003\u003d\u0011NJ��\u000f\u003e\u0018�Q0�k��\"�\u0001\u0027E;�-�����\u0003��;ϷM�$X�\u003e8��n�\u0019\u001d�J�N�zꑤ�{\u0019\u000f����\u003d�\u0006}\u003d�Nq-�Z�\u0012`\u001f$�HPR��݈j\u0026��\u000e��\u001b�ˋ\u0002�-V��6@m�\u0003�$�\u0007����?�\u003c`�$�\u000b6\u000e���M��\u001e������z���2#��3z4����xD�;\u0019�\rPK\u0007\b�J?�\u0006\u0000\u0000�\u001a\u0000\u0000PK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\u000bn�X�J?�\u0006\u0000\u0000�\u001a\u0000\u0000\u0007\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000doc.kmlPK\u0005\u0006\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u00005\u0000\u0000\u0000�\u0006\u0000\u0000\u0000\u0000",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:22 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:19 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

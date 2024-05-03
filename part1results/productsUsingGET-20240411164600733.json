@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "productsUsingGET-20240411164600733",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://www.klarna.com/us/shopping/public/openai/v0/products?q\u003dFIB",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:46:01 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:46:01 GMT\nvary: Accept-Encoding\nx-cache: Miss from cloudfront\nvia: 1.1 e2bc53c67d7a4b6beae25c798d638b10.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-P2\nx-amz-cf-id: JnKqxLnvYHEejSFHIcXBUSRn7FOOJz34EucEkRaDhlFURKoXvFXt6g\u003d\u003d\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\n",
+      "responseBody": "{\"products\":[{\"name\":\"Organic India Psyllium Preprobiotic Fib 10 Oz 10 Oz\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl566/3201102904/Vitamins-Supplements/Organic-India-Psyllium-Preprobiotic-Fib-10-Oz-10-Oz/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$19.99\",\"attributes\":[]},{\"name\":\"D-Link 1-port Mini-GBIC SFP to 1000BaseLX Single-Mode Fibre Transceiver For Data Networking, Optical Network 1 x 1000Base-LX Network Optical Fib\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl117/3202773907/Network-Cards-Bluetooth-Adapters/D-Link-1-port-Mini-GBIC-SFP-to-1000BaseLX-Single-Mode-Fibre-Transceiver-For-Data-Networking-Optical-Network-1-x-1000Base-LX-Network-Optical-Fib/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$61.69\",\"attributes\":[]},{\"name\":\"Larryboy \u0026 the Fib from Outer Space DVD\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl801/3225338446/Movies/Larryboy-the-Fib-from-Outer-Space-DVD/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$21.99\",\"attributes\":[\"Genre:Unclassified\"]},{\"name\":\"Hario FIB-75-R Filter-in Bottle\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl82/4092866/Coffee-Makers/Hario-FIB-75-R-Filter-in-Bottle/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$26.50\",\"attributes\":[\"Material:Plastic\",\"Color:Red,Brown,Pink,White,Green\"]},{\"name\":\"Gator 3PK45x78 50G Fib Disc\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl1322/3207727112/Power-Tool-Accessories/Gator-3PK45x78-50G-Fib-Disc/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$5.99\",\"attributes\":[]}]}",
+      "responseReceivedAt": "Apr 11, 2024, 4:46:01 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:46:00 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

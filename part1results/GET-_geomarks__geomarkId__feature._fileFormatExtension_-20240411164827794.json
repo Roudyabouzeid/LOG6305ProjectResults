@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/feature.{fileFormatExtension}-20240411164827794",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/feature.kmz",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:29 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:29 GMT\nServer: Apache\ncontent-type: application/vnd.google-earth.kmz\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.kmz\nx-kong-upstream-latency: 8\nx-kong-proxy-latency: 0\nKeep-Alive: timeout\u003d5, max\u003d21\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "PK\u0003\u0004\u0014\u0000\b\b\b\u0000\u000en�X\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000doc.kml�W�n�F\u0014}�W\b*�\u0027y8���\nڤ\r\n�A\u0010\u0027A�HKc�5\u0017����﹒%2v!;�C�\u0017q8��\u003d��(}u[\u0016��شy]��\u0004�i���*�֧�O\u001f\u003e�W�Iz\u0005)HV����6�\u0027���\r�7�Z�-�b�@\"�L� ��^�e�:,������.��jZ�E�\u0026ۭI����7\u001d�.^\u0014��͋u��u�/����M/�x����]�ٴl]_��%[fɦ?O�;��g���\u0013r1#K���d\u0027��mzQ7Ӳn�4��,3r˶߷~�d\u001c�$��\u0016\"M��I�k]_�@�\u00145���U\\�\bi�\u000eJ\b�6VCz�\nI��.�fB\u0018aM�\u0006\u000b)4\u0004�\u001f\u0027iV�/y�\u001c֓�2f�\u0002��/\u0027i�\u0017\u001d�l���ɪu\\\b/-�.Mv��49D��Ȗ�J��Y�o6�[��~��M�����)\u0016{lP���\u000b|\u0010\u001a\u001f���\u0018\u003e|w��\u0026^d}ѥ���$�鶋�*��d]FH�cJ�\u003d��+��uV�q\u0001�e��U�X_�^\u0015eUo�jڮ���˼-�jզ�N\u0014�?��7�`�+\u0011�M��P욻�w�8D�\u001b������u]\u001dU���^�\u001d�Փ*Y�\u003d[~�Ĭ��\u0018�\u0027�\u0010\u0027�\u0000�GU˼�}P:\u0011ʳ���@���\u003d��Ǡ�\u003d�\u001a^�T�[!�q���\u000b�B3.�2\\y��xJw��\u0004\u0016\u0002��X�\u0011���k�\u0019����\u000b��l�\u0007\u001e8��#�[\u0018���SZ�`�����\u0001��sl�|\u0019�\u001d�Gu\n\u001c\u001a�� nQ�\u0010��\u0014Nr��Q�\f\u0000\u0019t�t���r�\u001c����Y1\u0026q���\t����\u0014�T\u003e��}�}�\n���}���\u0019F�r�M��-\u0003�\u001f�\u0027\u000f�Ԗ�o��M��R:��.6?�}�ʚ�_Z��y\u0005W\u001fv�wY�\r�0���\u0003c���W�{n��8\u0012��]�n\nAɬ�N���q/�@��\u0001;8\n8}8H\n\u0026��Zè��j\u0012%F\u0001�pe\u003d\u000e��(g\u001aǏ�C�¨b*(NR�(\u000fݝ�t�!\u001a�R�r��\u0006\u0017\u0017\u001cWA\u0007�\tD{� �\n\u0016D�\u0002��\u000bsÙ�\u0006����E����i㕠���y6ׁ!^�5�ȃ\u003cd$%34��\u0013\u0010\u0015�o���\u0014���\u001fl\u003e�\u0003d\u0011�F\u0014\u0002�k���$G��Ö��\u0005\u001b�\u0006��F��P���Jg���cL$\u0003`�-t\u0014C�4�\u0002h�F\u0005�{Nz\u0013�G�\u0003z8`G9)��ܣ0\n�@E��ڠTV\"�\u0001;��Q�8.q\u0027���\u0010\b\f:@�+c\u0007�8\u0012E\u0019\u0001��F�1\n��JÝ�Q\u000b����і\u0002\u0015X\u0000��9�\u001eI*��QG�\u0016��Kq\u0004i-\u001a/�\u001b2�\u0013\u0011�2�ˑ�tZ��ľ\u0013��\u003d�L�A\u0003�g�\u000b��\u0001��\u0014\u0027\u0011$Ї\"x-G�\u000b�Y�\u000e��ŏ$\u0005��\u0012�R�{�����\u0006�\u0006�P\u0016\u0010@�Z\u0027�\u000f��o��S���]\u0012�\u0005E,q�\u0018\u001a\u0013�w�\u001f\u0018 �^�\u0007�\u003d�!��?:�\u0007In\u0015\u0002\u0007ά\u0003�H\u0012�����`�\u001f�4 !F�\u0002ݝ�R\u001au�T���\u0012��~�{��\u000eI�8۱Z`\n\u0001�D]u@\u0005r��\u0003S�Ұ\"T�N\u0012�D��܅`��z �Ѱ��{[{b��Jk\t���գo\u0001O��$I�\"��?;�b/\u0026\u0003PK\u0007\b\u0019��\u0011L\u0005\u0000\u0000@\u000e\u0000\u0000PK\u0001\u0002\u0014\u0000\u0014\u0000\b\b\b\u0000\u000en�X\u0019��\u0011L\u0005\u0000\u0000@\u000e\u0000\u0000\u0007\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000doc.kmlPK\u0005\u0006\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u00005\u0000\u0000\u0000�\u0005\u0000\u0000\u0000\u0000",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:29 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:27 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

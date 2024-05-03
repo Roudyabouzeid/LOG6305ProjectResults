@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "productsUsingGET-20240411164600789",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://www.klarna.com/us/shopping/public/openai/v0/products?q\u003d(%2B1696)%2039301476836",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:46:02 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:46:03 GMT\nvary: Accept-Encoding\nx-cache: Miss from cloudfront\nvia: 1.1 e2bc53c67d7a4b6beae25c798d638b10.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-P2\nx-amz-cf-id: Sa__VSweLlH-G2_RoIVJktZbQ3O7wStwVQAG1YjXuyg6U8o1WhfdBg\u003d\u003d\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\n",
+      "responseBody": "{\"products\":[{\"name\":\"Savoy House 7-1696-5\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl460/3203956867/Lighting/Savoy-House-7-1696-5/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$678.00\",\"attributes\":[\"Indoor or Outdoor Lighting:Indoor Lighting\"]},{\"name\":\"Anno 1696\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl129/3206223101/PC-Games/Anno-1696/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$15.98\",\"attributes\":[]},{\"name\":\"Insomnium: Anno 1696 (Vinyl)\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl803/3220712889/Music/Insomnium-Anno-1696-%28Vinyl%29/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$29.98\",\"attributes\":[]},{\"name\":\"George Kovacs P1696 Turbine 6\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl460/3203917313/Lighting/George-Kovacs-P1696-Turbine-6/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$383.65\",\"attributes\":[\"Indoor or Outdoor Lighting:Indoor Lighting\"]},{\"name\":\"Anno 1696 [LP] VINYL (Vinyl)\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl803/3208384024/Music/Anno-1696-%5BLP%5D-VINYL-%28Vinyl%29/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$49.96\",\"attributes\":[]}]}",
+      "responseReceivedAt": "Apr 11, 2024, 4:46:02 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:46:00 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

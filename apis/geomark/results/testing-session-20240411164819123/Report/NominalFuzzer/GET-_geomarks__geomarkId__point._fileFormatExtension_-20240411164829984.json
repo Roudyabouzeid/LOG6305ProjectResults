@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/point.{fileFormatExtension}-20240411164829984",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/point.json",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:32 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:31 GMT\nServer: Apache\ncontent-type: application/json;charset\u003dUTF-8\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.json\nx-kong-upstream-latency: 5\nx-kong-proxy-latency: 0\nvary: Accept-Encoding\nKeep-Alive: timeout\u003d5, max\u003d98\nConnection: Keep-Alive\nTransfer-Encoding: chunked\n",
+      "responseBody": "{\"items\": [\n{\n\"id\":\"gm-abcdefghijklmnopqrstuv0bcislands\",\n\"url\":\"https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\",\n\"geometry\":\"SRID\u003d4326;POINT(-124.879924 54.916609)\"\n}\n]}\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:32 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:29 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

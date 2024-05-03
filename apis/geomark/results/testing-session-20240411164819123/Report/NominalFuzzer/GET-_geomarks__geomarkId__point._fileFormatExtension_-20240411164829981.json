@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/geomarks/{geomarkId}/point.{fileFormatExtension}-20240411164829981",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands/point.geojson",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:48:31 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Date: Thu, 11 Apr 2024 20:48:31 GMT\nServer: Apache\ncontent-type: application/x-geo+json;charset\u003dUTF-8\ncontent-length: 284\naccess-control-allow-origin: *\ncontent-disposition: attachment; filename\u003dgm-abcdefghijklmnopqrstuv0bcislands.geojson\nx-kong-upstream-latency: 8\nx-kong-proxy-latency: 2\nKeep-Alive: timeout\u003d5, max\u003d4\nConnection: Keep-Alive\n",
+      "responseBody": "{\"type\": \"FeatureCollection\",\"features\": [\n{\"type\": \"Feature\",\"geometry\": {\"type\": \"Point\",\"coordinates\": [-124.879924,54.916609]},\"properties\": {\"id\": \"gm-abcdefghijklmnopqrstuv0bcislands\",\"url\": \"https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands\"}}\n]}\n",
+      "responseReceivedAt": "Apr 11, 2024, 4:48:31 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:48:29 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "productsUsingGET-20240411164600777",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://www.klarna.com/us/shopping/public/openai/v0/products?q\u003dAP",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:46:02 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "content-type: application/json;charset\u003dutf-8\ndate: Thu, 11 Apr 2024 20:46:02 GMT\nvary: Accept-Encoding\nx-cache: Miss from cloudfront\nvia: 1.1 e2bc53c67d7a4b6beae25c798d638b10.cloudfront.net (CloudFront)\nx-amz-cf-pop: YUL62-P2\nx-amz-cf-id: ZUSFDfnbpUllC14b53nOyfoHK5GZATJy28-Y6MIvF5y64vwusaUohg\u003d\u003d\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nstrict-transport-security: max-age\u003d31536000; includeSubDomains; preload\n",
+      "responseBody": "{\"products\":[{\"name\":\"Nike Air Max AP M - Black/Volt\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl337/3200274775/Shoes/Nike-Air-Max-AP-M-Black-Volt/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$59.99\",\"attributes\":[\"Outsole:Rubber\",\"Fastening:Laced\",\"Target Group:Man\",\"Color:Black\",\"Upper Material:Mesh,Leather\",\"Size (US):9.5,10,11,12,13,14,15,16,17,18,11.5,10.5,2,3,4,5,6,7,8,9,2.5,3.5,4.5,16.5,5.5,15.5,6.5,14.5,13.5,7.5,8.5,12.5\",\"Series:Nike Air Max\"]},{\"name\":\"La Roche-Posay Lipikar Baume AP+ 13.5fl oz\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl253/4026478/Skincare/La-Roche-Posay-Lipikar-Baume-AP-13.5fl-oz/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$19.99\",\"attributes\":[]},{\"name\":\"Stihl AP Series Walk-Behind Cordless RMA 510 KIT\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl119/3209968390/Lawn-Mowers/Stihl-AP-Series-Walk-Behind-Cordless-RMA-510-KIT/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$299.99\",\"attributes\":[\"Mulching:With Mulching\",\"Features:Foldable Handle\"]},{\"name\":\"La Roche-Posay Lipikar AP+M Triple Repair Body Moisturizing Cream\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl253/3205086758/Skincare/La-Roche-Posay-Lipikar-AP-M-Triple-Repair-Body-Moisturizing-Cream/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$9.99\",\"attributes\":[]},{\"name\":\"La Roche-Posay Lipikar Wash AP+ Moisturizing Body \u0026 Face Wash 13.5fl oz\",\"url\":\"https://www.klarna.com/us/shopping/pl/cl341/3201244638/Toiletries/La-Roche-Posay-Lipikar-Wash-AP-Moisturizing-Body-Face-Wash-13.5fl-oz/?utm_source\u003dopenai\u0026ref-site\u003dopenai_plugin\",\"price\":\"$13.59\",\"attributes\":[\"Target Group:Man,Woman,Unisex\"]}]}",
+      "responseReceivedAt": "Apr 11, 2024, 4:46:02 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:46:00 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

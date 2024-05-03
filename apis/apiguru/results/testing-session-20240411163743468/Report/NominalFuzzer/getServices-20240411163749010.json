@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getServices-20240411163749010",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://api.apis.guru/v2/hsbc.com/services.json",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 11, 2024, 4:37:49 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "server: GitHub.com\ncontent-type: application/json; charset\u003dutf-8\nx-origin-cache: HIT\nlast-modified: Sat, 22 Apr 2023 00:59:21 GMT\naccess-control-allow-origin: *\netag: \"64433169-3c\"\nexpires: Thu, 11 Apr 2024 20:47:49 GMT\ncache-control: max-age\u003d600\nx-proxy-cache: MISS\nx-github-request-id: 15F2:3E70:E2F85:125C79:66184A1D\naccept-ranges: bytes\nage: 0\ndate: Thu, 11 Apr 2024 20:37:49 GMT\nvia: 1.1 varnish\nx-served-by: cache-yul1970023-YUL\nx-cache: MISS\nx-cache-hits: 0\nx-timer: S1712867870.772518,VS0,VE43\nvary: Accept-Encoding\nx-fastly-request-id: 383e7c42fdfac6dc743c96a1c781e2ea4a4aada2\ncontent-length: 60\n",
+      "responseBody": "{\n  \"data\": [\n    \"atm\",\n    \"branches\",\n    \"product\"\n  ]\n}",
+      "responseReceivedAt": "Apr 11, 2024, 4:37:49 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 11, 2024, 4:37:49 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}
